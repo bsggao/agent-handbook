@@ -1,0 +1,25 @@
+{
+  "version": "1.10.0",
+  "verification": "Read package source signatures; no cloud request",
+  "files": [
+    {
+      "name": "agent_framework_core-1.10.0.tar.gz",
+      "sha256": "a373b3bec966e4d186d968e248ac683549cce464a0db345b6ebeebfeafdc7025"
+    },
+    {
+      "name": "agent_framework_foundry-1.10.0-py3-none-any.whl",
+      "sha256": "3beaaa91d6bd206f633a79ce88ada94140c85f985b768b04dba267b6bd5520fc"
+    },
+    {
+      "name": "agent_framework_openai-1.10.0-py3-none-any.whl",
+      "sha256": "85cebbd8d2037c6bf34d7e4d5a09746a50f50067f0cb16299573a8e2a378e022"
+    }
+  ],
+  "apis": [
+    "FoundryChatClient(project_endpoint,model,credential)",
+    "as_agent",
+    "create_session",
+    "run(stream=True)",
+    "options.response_format"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "python": "3.13.1",
+  "dependencies": {
+    "jcs": "0.2.1",
+    "PyNaCl": "1.6.0"
+  },
+  "mode": "offline; upstream notebooks; installation cells skipped",
+  "records": [
+    {
+      "path": "upstream/18-securing-ai-agents/code_samples/18-signed-receipts.ipynb",
+      "cellsExecuted": 13,
+      "status": "passed",
+      "output": "Public key (Ed25519, 32 bytes): sviTCHKkZY_JkZoOD46gnuCXgb1a3HVfvfyWcBmkcD0\n{\n  \"type\": \"agent.tool_call.v1\",\n  \"agent_id\": \"contoso-travel-bot\",\n  \"tool_name\": \"lookup_flights\",\n  \"tool_args_hash\": \"sha256:47578acca4df262c8f172b91493b818a26d042e7beb8e7b121e2bc3776152746\",\n  \"result_hash\": \"sha256:556447bf01c3c33285086d224b3d6fb4cd7b620b5151fbbebe67e7ff81cdde7a\",\n  \"policy_id\": \"contoso-travel-policy-v3\",\n  \"timestamp\": \"2026-09-14T14:41:33Z\",\n  \"sequence\": 0,\n  \"previous_receipt_hash\": null\n}\n{\n  \"type\": \"agent.tool_call.v1\",\n  \"agent_id\": \"contoso-travel-bot\",\n  \"tool_name\": \"lookup_flights\",\n  \"tool_args_hash\": \"sha256:47578acca4df262c8f172b91493b818a26d042e7beb8e7b121e2bc3776152746\",\n  \"result_hash\": \"sha256:556447bf01c3c33285086d224b3d6fb4cd7b620b5151fbbebe67e7ff81cdde7a\",\n  \"policy_id\": \"contoso-travel-policy-v3\",\n  \"timestamp\": \"2026-09-14T14:41:33Z\",\n  \"sequence\": 0,\n  \"previous_receipt_hash\": null,\n  \"signature\": {\n    \"alg\": \"EdDSA\",\n    \"sig\": \"liNTBWomL12WAaaRBHphuBEQ5IKoDhfXtHZ5PPFuEKTzRCurvW1mjBxy43xAkpLRCnb1y9oDfBcfcb4aP7gZBw\",\n    \"public_key\": \"sviTCHKkZY_JkZoOD46gnuCXgb1a3HVfvfyWcBmkcD0\"\n  }\n}\nReceipt is valid: True\nPre-hashed receipt valid: False\nOriginal policy_id:  contoso-travel-policy-v3\nTampered policy_id:  contoso-travel-policy-PERMISSIVE\n\nTampered receipt valid? False\nReceipt 0: tool=lookup_flights, prev=None\nReceipt 1: tool=hold_seat, prev=sha256:e6e89aac3febe5a52dfbc02702447262061d6dd8743b564dafc3de6e8f93b2a1\nReceipt 2: tool=confirm_booking, prev=sha256:8e88ed35e4f00440b9a50528969551dd79dea3615e53127af24afb7ee40dd969\nReceipt 0 (    lookup_flights): VALID\nReceipt 1 (         hold_seat): VALID\nReceipt 2 (   confirm_booking): VALID\nReceipt 0 (    lookup_flights): VALID\nReceipt 1 (         hold_seat): INVALID (failed: signature)\nReceipt 2 (   confirm_booking): INVALID (failed: chain link)\nTool was called 3 times.\nEach call produced a signed receipt linked to the previous one.\n\nReceipt 0 (lookup_flights): VALID\nReceipt 1 (lookup_flights): VALID\nReceipt 2 (lookup_flights): VALID\n"
+    },
+    {
+      "path": "upstream/18-securing-ai-agents/code_samples/human-authorization-receipts.ipynb",
+      "cellsExecuted": 6,
+      "status": "passed",
+      "output": "action digest: sha256:fba342ad8447b491a089d7a09d4ac58f1a835c504e58f8d832db04f65bb62a25\n(True, 'envelope ok')\nbinds digest: sha256:fba342ad8447b491 …  under refunds-v3\n(True, 'executed')\ntamper              -> (False, 'digest substitution: the approval binds a different canonical action than the one being executed')\nconfused-deputy     -> (False, 'digest substitution: the approval binds a different canonical action than the one being executed')\nreplay              -> (False, 'approval already consumed (replay refused)')\nforged-approval     -> (False, 'approval: signature invalid (forged, tampered, or malformed)')\nself-minted-agent   -> (False, 'agent receipt: signature invalid (forged, tampered, or malformed)')\nwrong-action-agent  -> (False, 'digest substitution: the agent receipt binds a different canonical action than the one being executed')\nmalformed-approval  -> (False, 'approval: receipt malformed (not an object with a signature object)')\nmalformed-agent     -> (False, 'agent receipt: receipt malformed (not an object with a signature object)')\nwrong-len-sig       -> (False, 'approval: signature invalid (forged, tampered, or malformed)')\nnonobject-receipt   -> (False, 'approval: receipt malformed (not an object with a signature object)')\n\n--- the two negative controls that make the property real ---\nstale-policy        -> (False, \"stale authority: approved under policy 'refunds-v3', current is 'refunds-v4'\")\nstale-key           -> (False, \"approval: stale authority: key_id 'approver-key-1' is not in the pinned registry (unknown or rotated out)\")\nexpired-approval    -> (False, 'stale authority: approval expired before execution')\ndigest-substitution -> (False, 'digest substitution: the approval binds a different canonical action than the one being executed')\n"
+    }
+  ]
+}

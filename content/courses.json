@@ -1,0 +1,173 @@
+[
+  {
+    "id": "00",
+    "slug": "setup",
+    "title": "环境配置与学习准备",
+    "group": "从这里开始",
+    "summary": "准备 Python、运行环境与第一个实验。",
+    "minutes": 35,
+    "source": "00-course-setup"
+  },
+  {
+    "id": "01",
+    "slug": "introduction",
+    "title": "AI Agent 入门与应用场景",
+    "group": "从这里开始",
+    "summary": "从一个旅行助手理解 Agent 的工作方式。",
+    "minutes": 40,
+    "source": "01-intro-to-ai-agents"
+  },
+  {
+    "id": "02",
+    "slug": "frameworks",
+    "title": "探索 Agent 框架",
+    "group": "从这里开始",
+    "summary": "理解框架负责什么，以及如何选择。",
+    "minutes": 45,
+    "source": "02-explore-agentic-frameworks"
+  },
+  {
+    "id": "03",
+    "slug": "design-patterns",
+    "title": "Agent 设计模式",
+    "group": "核心设计模式",
+    "summary": "将目标、行动、反馈组织成可靠的系统。",
+    "minutes": 40,
+    "source": "03-agentic-design-patterns"
+  },
+  {
+    "id": "04",
+    "slug": "tools",
+    "title": "工具调用",
+    "group": "核心设计模式",
+    "summary": "让模型提出请求，让应用安全地执行。",
+    "minutes": 55,
+    "source": "04-tool-use"
+  },
+  {
+    "id": "05",
+    "slug": "rag",
+    "title": "Agentic RAG",
+    "group": "核心设计模式",
+    "summary": "从文档中找证据，给回答附上出处。",
+    "minutes": 60,
+    "source": "05-agentic-rag"
+  },
+  {
+    "id": "06",
+    "slug": "trust",
+    "title": "构建可信赖的 Agent",
+    "group": "核心设计模式",
+    "summary": "设置边界，把人纳入关键决策。",
+    "minutes": 45,
+    "source": "06-building-trustworthy-agents"
+  },
+  {
+    "id": "07",
+    "slug": "planning",
+    "title": "规划模式",
+    "group": "核心设计模式",
+    "summary": "拆解任务、跟踪依赖，并根据结果调整。",
+    "minutes": 50,
+    "source": "07-planning-design"
+  },
+  {
+    "id": "08",
+    "slug": "multi-agent",
+    "title": "多 Agent 协作",
+    "group": "核心设计模式",
+    "summary": "用清晰的角色、交接和汇总协作。",
+    "minutes": 65,
+    "source": "08-multi-agent"
+  },
+  {
+    "id": "09",
+    "slug": "reflection",
+    "title": "元认知与反思",
+    "group": "核心设计模式",
+    "summary": "检查可观察的结果，改进下一次行动。",
+    "minutes": 45,
+    "source": "09-metacognition"
+  },
+  {
+    "id": "10",
+    "slug": "production",
+    "title": "Agent 生产实践",
+    "group": "走向真实应用",
+    "summary": "从一次跑通走向可观测、可评估的服务。",
+    "minutes": 60,
+    "source": "10-ai-agents-production"
+  },
+  {
+    "id": "11",
+    "slug": "protocols",
+    "title": "Agent 协议：MCP、A2A、NLWeb",
+    "group": "走向真实应用",
+    "summary": "连接工具、其他 Agent 与网站知识。",
+    "minutes": 65,
+    "source": "11-agentic-protocols"
+  },
+  {
+    "id": "12",
+    "slug": "context",
+    "title": "上下文工程",
+    "group": "走向真实应用",
+    "summary": "为每次模型调用选取合适的信息。",
+    "minutes": 45,
+    "source": "12-context-engineering"
+  },
+  {
+    "id": "13",
+    "slug": "memory",
+    "title": "Agent 记忆",
+    "group": "走向真实应用",
+    "summary": "让信息跨会话延续，同时保持可控。",
+    "minutes": 50,
+    "source": "13-agent-memory"
+  },
+  {
+    "id": "14",
+    "slug": "agent-framework",
+    "title": "Microsoft Agent Framework",
+    "group": "进阶工程实践",
+    "summary": "用工作流、交接与中间件组织应用。",
+    "minutes": 70,
+    "source": "14-microsoft-agent-framework"
+  },
+  {
+    "id": "15",
+    "slug": "browser-use",
+    "title": "Computer Use 与 Browser Use",
+    "group": "进阶工程实践",
+    "summary": "理解观察、操作、验证的界面自动化循环。",
+    "minutes": 50,
+    "source": "15-browser-use"
+  },
+  {
+    "id": "16",
+    "slug": "deployment",
+    "title": "可扩展部署",
+    "group": "进阶工程实践",
+    "summary": "处理并发、成本、故障和服务边界。",
+    "minutes": 65,
+    "source": "16-deploying-scalable-agents"
+  },
+  {
+    "id": "17",
+    "slug": "local-agents",
+    "title": "本地 Agent",
+    "group": "进阶工程实践",
+    "summary": "在本地运行模型、检索与工具。",
+    "minutes": 55,
+    "source": "17-creating-local-ai-agents"
+  },
+  {
+    "id": "18",
+    "slug": "security",
+    "title": "Agent 安全",
+    "group": "进阶工程实践",
+    "summary": "验证授权与执行记录，防止越权和篡改。",
+    "minutes": 60,
+    "source": "18-securing-ai-agents"
+  }
+]

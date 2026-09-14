@@ -1,0 +1,27 @@
+{
+  "name": "ai-agent-zh-handbook",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --host 127.0.0.1",
+    "build": "vitepress build docs && python3 scripts/secure_static_build.py",
+    "build:production": "SITE_URL=https://gaogaoai.cn BASE_PATH=/agent-handbook/ npm run build && BASE_PATH=/agent-handbook/ npm run check && BASE_PATH=/agent-handbook/ node scripts/check_bootstrap.mjs",
+    "preview": "vitepress preview docs --host 127.0.0.1",
+    "check": "python3 scripts/check_content.py",
+    "test:examples": "python3 -m unittest discover -s examples/assistant -p 'test_*.py' -v",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0",
+    "@types/node": "22.18.6",
+    "mermaid": "11.12.0",
+    "typescript": "5.9.2",
+    "vitepress": "1.6.4",
+    "vue": "3.5.21",
+    "vue-tsc": "3.0.6"
+  }
+}

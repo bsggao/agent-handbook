@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve the exact upstream bytes recorded by provenance/source-version.json.
+upstream/** -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary

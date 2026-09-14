@@ -1,0 +1,962 @@
+{
+  "repository": "https://github.com/microsoft/ai-agents-for-beginners",
+  "commit": "25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595",
+  "commitDate": "2026-09-10T00:35:03+01:00",
+  "retrieved": "2026-09-14",
+  "license": "MIT",
+  "scope": "English 00–18 lessons, zh-CN translations, Python/Notebook/.NET samples, root configuration, devcontainer, smoke-test definitions",
+  "files": [
+    {
+      "path": ".devcontainer/Dockerfile",
+      "sha256": "664ee2e4a7ac851a648ec7b1eac7dc05b8f94f8f82f57afc96288e494d8591a6"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "sha256": "860dc41531141483b792324eafa53fdc1eca20ae0efcf2e03950fa4245ccdaa2"
+    },
+    {
+      "path": ".env.example",
+      "sha256": "08e297241c818af8b1c46610d829384a8fc1fe5bd267a1e1bd21c7fd2da26cae"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "2f9b027b5783fd34755da4f9b396d94ee64e3e914ca955758ec6873cb6bba6bd"
+    },
+    {
+      "path": ".github/workflows/smoke-test.yml",
+      "sha256": "563c5a95028e90711d02d8f7fced98cac29b5024305672c6843f5510c32d8191"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "7aea788c254ae3f89e3a5bec8647c0a8c1cff81402f1bbeecc7469fe0e29c02b"
+    },
+    {
+      "path": "00-course-setup/AzureSearch.cs",
+      "sha256": "c6a78815a0f869260edbadfa8e16e2dd200e94710ec16a7578282489d8b145c5"
+    },
+    {
+      "path": "00-course-setup/AzureSearch.md",
+      "sha256": "13f07f7e92dd0e1c4cafca3378839bb9369e9ff65485b4db28e109c05fe6a946"
+    },
+    {
+      "path": "00-course-setup/README.md",
+      "sha256": "a8e197902d080b6e0f179f02ccf316acc01770e789fb2a5ebd39d3f18dd298f7"
+    },
+    {
+      "path": "01-intro-to-ai-agents/README.md",
+      "sha256": "1dfaba2fd47a698a2dd4346511cfb9e5f182a3ae58914913379f2e3de343745d"
+    },
+    {
+      "path": "01-intro-to-ai-agents/code_samples/01-dotnet-agent-framework.cs",
+      "sha256": "21e1dda2a9d8d502a1942f47d9d2cd88f38eb57aaa3a3b07fe3d2115f90ed122"
+    },
+    {
+      "path": "01-intro-to-ai-agents/code_samples/01-dotnet-agent-framework.md",
+      "sha256": "aac38508fe0b9deae75c6c84372d15826db5a53fdead829e39b4b240c7977661"
+    },
+    {
+      "path": "01-intro-to-ai-agents/code_samples/01-python-agent-framework.ipynb",
+      "sha256": "f7aec117adaeb227fb0f8c06fe2e09d51857c428cd578a20ceff3dd2e460ee31"
+    },
+    {
+      "path": "02-explore-agentic-frameworks/README.md",
+      "sha256": "086a26ae6f11c5968f2a9ba838067f31bd5e2bfee1e1ac797b489f23478053f8"
+    },
+    {
+      "path": "02-explore-agentic-frameworks/azure-ai-foundry-agent-creation.md",
+      "sha256": "e41df4da4f638ce3bc8e5d2a980f72df09ffb5951281153e89907ff21037cca5"
+    },
+    {
+      "path": "02-explore-agentic-frameworks/code_samples/02-dotnet-agent-framework.cs",
+      "sha256": "02b75ab6e2e9cd69db5978051b8b806f313d6d82bb93270aff8be636b4bb9115"
+    },
+    {
+      "path": "02-explore-agentic-frameworks/code_samples/02-dotnet-agent-framework.md",
+      "sha256": "352cba17e8322e255e180878b52806338ec8319a9b6cd236e729095262dc731c"
+    },
+    {
+      "path": "02-explore-agentic-frameworks/code_samples/02-python-agent-framework-azure-openai.ipynb",
+      "sha256": "5acdeebf4b13fa3523bda196cf146d6e2edce64064e34e54f52331e0c5604788"
+    },
+    {
+      "path": "02-explore-agentic-frameworks/code_samples/02-python-agent-framework.ipynb",
+      "sha256": "39822682d5f97476134a1d1e5375b7c933ae7e23c499c62ee24bc5bcd56c7902"
+    },
+    {
+      "path": "03-agentic-design-patterns/README.md",
+      "sha256": "27fd1ac55c6282f0dd1cf8bc8e74b56484b8fced1c74bdb0159936077869bee5"
+    },
+    {
+      "path": "03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.cs",
+      "sha256": "76594c5f8309049bf0c605d48631d6b647075f783a57ebfc7439f9c1c13ee6c7"
+    },
+    {
+      "path": "03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.md",
+      "sha256": "08dc8839e4065208142e5407aade00fa3786756262fdb9863225a2a445d9f9fb"
+    },
+    {
+      "path": "03-agentic-design-patterns/code_samples/03-python-agent-framework.ipynb",
+      "sha256": "84a6fddf71db6c7768775cfba1b09bcd91e39f7438acc559422ec7fad5215d84"
+    },
+    {
+      "path": "04-tool-use/README.md",
+      "sha256": "50e1055207bbf5bb0290ba10feecb6a996ee9a9c73bd933be12d3ae960150e2a"
+    },
+    {
+      "path": "04-tool-use/code_samples/04-dotnet-agent-framework.cs",
+      "sha256": "e89993e9bc7e2c8fe6ae7ef26536f3081547836265a049fa68c4b0259424edfa"
+    },
+    {
+      "path": "04-tool-use/code_samples/04-dotnet-agent-framework.md",
+      "sha256": "025dcb5eae31c4bdf631ce2f90d5f69fa16646471a7f554d8559ef2c882f5545"
+    },
+    {
+      "path": "04-tool-use/code_samples/04-python-agent-framework.ipynb",
+      "sha256": "ef738724ee06bcb7a7f485bc4d4e1768b685c9de1a05643f61e1e0b2d4c2f82c"
+    },
+    {
+      "path": "04-tool-use/code_samples/test_demo_plugins.py",
+      "sha256": "aef1c920eb230b2eb3ef510e5758a345d3bda4957c33991d73244e1adb2974a2"
+    },
+    {
+      "path": "05-agentic-rag/README.md",
+      "sha256": "42148446c9658b57cf9de140a28ac3e3d204eaf92c373281361019110052b292"
+    },
+    {
+      "path": "05-agentic-rag/code_samples/05-dotnet-agent-framework.cs",
+      "sha256": "100c89ceca42d14ccc3f13af6ec40365a1d29af31f78d9819e0c85492659dc79"
+    },
+    {
+      "path": "05-agentic-rag/code_samples/05-dotnet-agent-framework.ipynb",
+      "sha256": "7af5de8d9f1ad3948f192a0b08a8d7b6ba2f53467557fe3615aa4e60556a3a76"
+    },
+    {
+      "path": "05-agentic-rag/code_samples/05-dotnet-agent-framework.md",
+      "sha256": "3b052b3e4581fd73c2571854a839a6628b52b19b0ee5dc983c7c7394396e1fa0"
+    },
+    {
+      "path": "05-agentic-rag/code_samples/05-python-agent-framework.ipynb",
+      "sha256": "de7b8291a599bd623b3838d7c34feaaead3f675196d28000ba856bce1db4855e"
+    },
+    {
+      "path": "05-agentic-rag/code_samples/document.md",
+      "sha256": "eeda052bfaab67d66bc5b34995461da9f6454cdea3e60f4fa15062db506d678d"
+    },
+    {
+      "path": "06-building-trustworthy-agents/README.md",
+      "sha256": "d6a9fb9788cd39942108bb5b8b09598661c3a03524728f9a93cf7824b84fbdd6"
+    },
+    {
+      "path": "06-building-trustworthy-agents/code_samples/06-human-in-the-loop.ipynb",
+      "sha256": "a04c9e2667ca1c0becdc06d2b47b29105bf4c319677912c3f02cd2a32169251f"
+    },
+    {
+      "path": "06-building-trustworthy-agents/code_samples/06-system-message-framework.ipynb",
+      "sha256": "034e54d400b8f9963c4a1cb5e3dd5625530759b19f21ab900b0be4f869cbc4a4"
+    },
+    {
+      "path": "07-planning-design/README.md",
+      "sha256": "036b61834e299cc555f8f801b4a2155817ee2587d23196836dce30c1d749d84f"
+    },
+    {
+      "path": "07-planning-design/code_samples/07-dotnet-agent-framework.cs",
+      "sha256": "eff917e0c1d61ba0c484607633ffc801d55600fbc91ae590aa9c1933a52dd00f"
+    },
+    {
+      "path": "07-planning-design/code_samples/07-dotnet-agent-framework.md",
+      "sha256": "cd72e12e21cf397ed975194cb19001e0dc0a12c464bdd3ed4fe7bcfa05e94863"
+    },
+    {
+      "path": "07-planning-design/code_samples/07-python-agent-framework.ipynb",
+      "sha256": "a72ceef4f87b78e94608f2091fc7445985eac8bd00134eb7e135f48e1e88d8e0"
+    },
+    {
+      "path": "08-multi-agent/README.md",
+      "sha256": "6c7d890bfec47b7b982e7f1d8dac21d1864540c4d8e62685ee12fd71bb95a0da"
+    },
+    {
+      "path": "08-multi-agent/code_samples/08-dotnet-agent-framework.cs",
+      "sha256": "2cd1a42e7da306a5bca2b6f881bfd669a974dfc0b0acb6b50386e9f9326f8ac9"
+    },
+    {
+      "path": "08-multi-agent/code_samples/08-dotnet-agent-framework.md",
+      "sha256": "99c292723aeb6e3c0157fecbec168d4f09808295d092b19067b357c0e589aadc"
+    },
+    {
+      "path": "08-multi-agent/code_samples/08-python-agent-framework.ipynb",
+      "sha256": "5eac21f2b8fa0cb42182c69e7db279c6e026b2de4499242a0db7cdb36825300e"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/README.md",
+      "sha256": "291a2df927c5dfee0ac27951de9ec8349be7c1f48c3329c39d2a1c65a606fd6a"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.cs",
+      "sha256": "2912bb6e28692afddcf27eb2e9524e67240cac9e97a10f9f2eb483ed9e83dd59"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.ipynb",
+      "sha256": "4ae2e94be7980d143636efd62b4b28c0d31374683560200f87de4b2bfcd0ed68"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.md",
+      "sha256": "bb3e811df172b01b080da7c476fa8aa8a0c0585e333438631331d4b8d985576b"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.cs",
+      "sha256": "0e9b6589ebea669274a56a4676405204023dfd92e6558166d11c952ba8629538"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.ipynb",
+      "sha256": "1c90a96db91ac15d0182c3bf034db49ee4770e4f17bf9dc1446bf7db07c71701"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.md",
+      "sha256": "6954d62d42f26b0a74b52ed45329d45d7adf2bf19e8e8f3bc015cad4fbcd515f"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.cs",
+      "sha256": "f3858c847e339feffe4345ac2c0af0eadd8b2e777eca8f0940a266dd797f3a0d"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.ipynb",
+      "sha256": "49e5e3030abe64d2bee4327b34e80fe2107035db3a1f60bef9c74aab5d508624"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.md",
+      "sha256": "fc3da78a831e748d0e6db478bb6462603b843aa263e5841de6245a29a4aaf9e1"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.cs",
+      "sha256": "33b1a916dcd8fe2a41858884edffd228ac2c873962a41806dcb62f878c23662d"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.ipynb",
+      "sha256": "53d4c0043c32baf75d9be9a1c66e02da8d4ce3af5e5b245f9db1f9e477cb28c8"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.md",
+      "sha256": "519d164032691dc879af5e92aab5ed470d15673e51ea80c315c2b4e1a39e13f4"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/python/01.python-agent-framework-workflow-ghmodel-basic.ipynb",
+      "sha256": "ed89a7f44bc588a74d76d50aebb14aa401e644bf385d22fc3e9b49b5367583fe"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/python/02.python-agent-framework-workflow-ghmodel-sequential.ipynb",
+      "sha256": "3a8a03627b947d17104ddc4a3a41e00d9b387db8986f3588eb8430b6fb4f7d48"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/python/03.python-agent-framework-workflow-ghmodel-concurrent.ipynb",
+      "sha256": "1ec438056a6d15d4b0fab4333c379c5279418c2659ec12128d940015728ce52a"
+    },
+    {
+      "path": "08-multi-agent/code_samples/workflows-agent-framework/python/04.python-agent-framework-workflow-aifoundry-condition.ipynb",
+      "sha256": "1317fdf12a212ad6032956167ef91a11240ab1c753466bf00d0e3228419f957a"
+    },
+    {
+      "path": "08-multi-agent/solution/solution-quiz.md",
+      "sha256": "cf85bb5af3d8ebfd4e68626d86bd793f94d93eef917a7eb7ad2e25cf13d877b0"
+    },
+    {
+      "path": "08-multi-agent/solution/solution.md",
+      "sha256": "fba5dd6e225af7fd01dfd13258cb1ea9b017fcc7c3958f72ea7a02d783d2993a"
+    },
+    {
+      "path": "09-metacognition/README.md",
+      "sha256": "d7e98597881e26052c8694c111bd8d03d41c8f982c039a501a9dd5f05a1f8e18"
+    },
+    {
+      "path": "09-metacognition/code_samples/09-python-agent-framework.ipynb",
+      "sha256": "3c125088f9c9ab985b3035a0e5613d46df3182af6c9b40d9177918571207c512"
+    },
+    {
+      "path": "10-ai-agents-production/README.md",
+      "sha256": "29afaa3bd325a6c78766c59e3fa7bb1c0a6d26203721a8ec3c72b917e7729a5d"
+    },
+    {
+      "path": "10-ai-agents-production/code_samples/10-expense_claim-demo.ipynb",
+      "sha256": "c802bbf9061b396e48d7012a983ddb9dea19c749bb8cc613772bfd9b52a627f7"
+    },
+    {
+      "path": "10-ai-agents-production/code_samples/10-python-agent-framework.ipynb",
+      "sha256": "8e7b90131c365ddf026024b5563eeff3156bc67ac47056e41511a6342c0ded77"
+    },
+    {
+      "path": "11-agentic-protocols/README.md",
+      "sha256": "020ead65fab3ae70c257b6030bef9d1603f5c03695401805b7475f7bb206e767"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/11-a2a-agent-framework.ipynb",
+      "sha256": "739099d16e76c639dd609f5d3077ba5168dcaf7b3cfad5b527522054661f0925"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/11-mcp-agent-framework.ipynb",
+      "sha256": "418b24c5b1c814e51a163201e2f63993182f029b6d6e026201818d953221fab5"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/github-mcp/MCP_SETUP.md",
+      "sha256": "a0586e5a33ff378ebc972217296ef5912d114d4ac2d520e67299323a23ef4a89"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/github-mcp/README.md",
+      "sha256": "ebb3dc244dcd1042bc945c98de370d4491ad544cd7042fc52807a18a6146c264"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/github-mcp/app.py",
+      "sha256": "e92f4114b8fcd69ded80390b1e160b46091aef800162ee7d0a2f17307a86ba28"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/github-mcp/chainlit.md",
+      "sha256": "c82dfb2f2e7bbe32b2888bcae2852f7f80d8c590b01fb8a8713971edb2de18b5"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/github-mcp/event-descriptions.md",
+      "sha256": "a212fad1bc46c1c2aa5489db49fb3f623488c4cadd07da8a4092ee5b41ea873b"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/.gitignore",
+      "sha256": "962900ec110db549b94e2e107d9d9c1672957f454d25d86c13443228ca6fd401"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/README.md",
+      "sha256": "f976ab2ecaec9ac5d3d96b077b02573eff2bad2035854937eef06fcc87af6de6"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/client/__init__.py",
+      "sha256": "541cce557552cc686c8bb77b606698da85ffd00079b4b0b3621d9d271fcefd49"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/client/client.py",
+      "sha256": "2d003950b524facc004ef1f4b53204d48e6b84206bd2e2a12735f7abf0fc7006"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/client/resumable_client.py",
+      "sha256": "668bc312c49b4babd3632672073f8489dc055a3dff6ac08c02e9e5d295ce77bb"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/client/utils.py",
+      "sha256": "2288c7637fdca187346e89b83fc39cf8a7fcffbd34b573f35c1df10e609bf3e7"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/server/__init__.py",
+      "sha256": "236c53b4ff6ca464bb7ed4c35b0f0801d318dd3d539cc2c5dddb1b5448a4ff65"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/server/event_store.py",
+      "sha256": "816d40a614913c62b55d4ef55b06ed249a8ec6a2d85619d0649d0d44422792e7"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/server/server.py",
+      "sha256": "6a9e2ee8fcd6f33eb72b15a4a6f0ff47b91578f3f5b7db7aaca1b2faecd1436f"
+    },
+    {
+      "path": "11-agentic-protocols/code_samples/mcp-agents/server/test_event_store.py",
+      "sha256": "a8b7bd4ae6b03c3ad038d042af5ebc13c77749339258f7dae39f8218632d8e3e"
+    },
+    {
+      "path": "12-context-engineering/README.md",
+      "sha256": "521f1c5da7a3fef8d9f0f40c5c12a2026600234b37561b1366644a0cbcc69247"
+    },
+    {
+      "path": "12-context-engineering/code_samples/12-chat_summarization.ipynb",
+      "sha256": "4ce59750575f6422503755e713e3ab82b2dc1ce532ca16e9e7a8407811a9b978"
+    },
+    {
+      "path": "12-context-engineering/code_samples/vacation_agent_scratchpad.md",
+      "sha256": "2727cc41ef890491504f911ca7e98def248194fca10c23f4ea0f2348ae3d9e7d"
+    },
+    {
+      "path": "13-agent-memory/13-agent-memory-cognee.ipynb",
+      "sha256": "9a3b49dd0429246c6800c2df9e15520369c1c17e4cb83e95fc331ddc62868f6f"
+    },
+    {
+      "path": "13-agent-memory/13-agent-memory.ipynb",
+      "sha256": "3d90a04ef78a3a13dfcf6b2f50b299cc09a179344b083a65adf4275402a1fb6c"
+    },
+    {
+      "path": "13-agent-memory/README.md",
+      "sha256": "0739bc6f70ce82f2d74effb0a455f0d5fb3aeba3132186c9219a5d489aaf2b9f"
+    },
+    {
+      "path": "14-microsoft-agent-framework/README.md",
+      "sha256": "aee0819691111814f65957aa28c1924f0f27555279246774f4574c1e715bea2d"
+    },
+    {
+      "path": "14-microsoft-agent-framework/code-samples/14-concurrent.ipynb",
+      "sha256": "522e4bd77f33eaad2167056f6e7ab1b552e00809d1aad50faa687c02216c63bf"
+    },
+    {
+      "path": "14-microsoft-agent-framework/code-samples/14-conditional-workflow.ipynb",
+      "sha256": "49b3dd2cf4f01770caf1b0641886c53a9c673d9c6e2d5140abd2a2baafadd2a9"
+    },
+    {
+      "path": "14-microsoft-agent-framework/code-samples/14-handoff.ipynb",
+      "sha256": "d85956ef8e18801c807bd694f65505048ce301f0acebfb9f11764248bafc1971"
+    },
+    {
+      "path": "14-microsoft-agent-framework/code-samples/14-human-loop.ipynb",
+      "sha256": "84f74a58d6647c1968207f286332d2926221fc73b9566e1e88c072cbbea60593"
+    },
+    {
+      "path": "14-microsoft-agent-framework/code-samples/14-langchain-hosted-agent.py",
+      "sha256": "3d16cdd07cd3f236a98ef29b357144947a6989696248cd4701f40d740988241b"
+    },
+    {
+      "path": "14-microsoft-agent-framework/code-samples/14-middleware.ipynb",
+      "sha256": "063b8b268932df3fa92ded5d1504dcc0b5d7b60878509bdcbc1c898decf1050d"
+    },
+    {
+      "path": "14-microsoft-agent-framework/code-samples/14-sequential.ipynb",
+      "sha256": "6fda14e29fbb14128daced49da8d4be896c997539e2e04b39b7b61c3d63f9961"
+    },
+    {
+      "path": "14-microsoft-agent-framework/code-samples/hotel_booking_workflow_sample.py",
+      "sha256": "ff992084f57344ca8146dc89481c3d717c2b3f388545c8111f0b5fc16e89e8c5"
+    },
+    {
+      "path": "15-browser-use/15-browser-user.ipynb",
+      "sha256": "f9ca2b142306f91f97e9b3878e81fdaf6b2a10b13bcd2a3861b1a016aa0944f9"
+    },
+    {
+      "path": "15-browser-use/README.md",
+      "sha256": "da1ac97ce4983c34c535d65e7ac0e9206523f6f84edb94ea9c25369e30a1a2c5"
+    },
+    {
+      "path": "15-browser-use/llms.txt",
+      "sha256": "7f3c076efe199194d4b4e1616c559399c547c3a5616c35e6b044a416d8d0d2b6"
+    },
+    {
+      "path": "16-deploying-scalable-agents/README.md",
+      "sha256": "4db02e83e787f0d33f0a608a205e340d1914f6be8ca52361f2331b8340ed8a68"
+    },
+    {
+      "path": "16-deploying-scalable-agents/code_samples/16-python-agent-framework.ipynb",
+      "sha256": "9196cc2e6909e0283eb5d4e1abbed6f5f2fcd8b9e9c64ddcd13d6c0aa8c1e868"
+    },
+    {
+      "path": "17-creating-local-ai-agents/README.md",
+      "sha256": "b46f76d0acb7136cc3b49da0836d50d5d6678cdb9df95f98ba068cc892f4f5d1"
+    },
+    {
+      "path": "17-creating-local-ai-agents/code_samples/17-local-agent-foundry-local.ipynb",
+      "sha256": "b178b730052cfd8472501a236a4695d3f820269160dbe561fb71c78b7fd34464"
+    },
+    {
+      "path": "18-securing-ai-agents/README.md",
+      "sha256": "99beba76e5d0405d35538412e055b3cd76ea96cec30ebbf1591563de57b80747"
+    },
+    {
+      "path": "18-securing-ai-agents/code_samples/18-signed-receipts.ipynb",
+      "sha256": "6d2918e936d224719616bd51dda2166248e98fdc74d8a6fafbda28040175a082"
+    },
+    {
+      "path": "18-securing-ai-agents/code_samples/human-authorization-receipts.ipynb",
+      "sha256": "3c12d8492fef2f1b6a08ff6d10b1a30d3debd5079bed7465b844e80157d2a013"
+    },
+    {
+      "path": "18-securing-ai-agents/code_samples/requirements.txt",
+      "sha256": "e2984d30f9bad3fefb0a8a056edfab7d0d8536f76fc2fc76f87f8c0afee12866"
+    },
+    {
+      "path": "18-securing-ai-agents/code_samples/sample_receipts/01_valid_receipt.json",
+      "sha256": "4cfda83f309da0a2280e7cd0a736beab7052ea7ed2e1d5af379b8fb7c01417df"
+    },
+    {
+      "path": "18-securing-ai-agents/code_samples/sample_receipts/02_tampered_receipt.json",
+      "sha256": "192f8655d300fee55e6adc981ee2092b42638f2af65ed28fcc69409b48601fd8"
+    },
+    {
+      "path": "18-securing-ai-agents/code_samples/sample_receipts/03_chain_three_receipts.json",
+      "sha256": "128e7dec669d1539bb6894a7bb019c393da6f29622276e00df88bbc0ee61dcfb"
+    },
+    {
+      "path": "18-securing-ai-agents/code_samples/sample_receipts/README.md",
+      "sha256": "6bf61d6eec23a801b4c134ba65702aae4046b6bd3ae56e695eda9e077f766491"
+    },
+    {
+      "path": "18-securing-ai-agents/code_samples/sample_receipts/generate_fixtures.py",
+      "sha256": "328d8e3b7a51a707f85cc5fba9613cd5eaef66ddfe249b3e80e4aff9f2462248"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "3d6cf8fa819617e74fead2f16ba5cdde4324855498333f5ded498e18ca0fe250"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "f310026f51c26438b8e54fc17d0eff45d2e3d82bf74a8e032b3f20542e856a09"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "9daeae709a0bd71bcfd1c96dc5822ecec5210327eff929da64b0ae7f8faf1444"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f47be3bed00ebdb725d65104e8b5dcc50567a36b74837261965cf3b484f2a147"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "ed79ef62ebbf195ea12b1cfc3f9d83c4ca6ddd5a3613e4a2a9e8f950c5a3ea70"
+    },
+    {
+      "path": "STUDY_GUIDE.md",
+      "sha256": "04e1b967117003ed9a898d073572f23d2efe89cd9f9339ddbd9910e93f43ac1f"
+    },
+    {
+      "path": "SUPPORT.md",
+      "sha256": "ba433ab78124bf695da229116020702f6c2995e30e29358a2248f25fea6c3520"
+    },
+    {
+      "path": "global.json",
+      "sha256": "eebc22778af9e2da192b0cd9b8e3e963a80ffba043904702598b0a928de4a708"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "dbd88d3ebdfac834915a0767f8c47ed162b090289b6f8ba9b4b3fd17d414c518"
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "480fbf1d02ff0210b88aa03c90a532171aac3b37d35c20d22282afa810b5ca7f"
+    },
+    {
+      "path": "tests/lesson-01-smoke-tests.json",
+      "sha256": "216818bd10f3cc6890e923718bf9eb7a4059feae3a64b4d128bb13d4baa483b2"
+    },
+    {
+      "path": "tests/lesson-04-smoke-tests.json",
+      "sha256": "3e51ba711449b2bc61a7d811326ce47a1435d3e5b1e51a5e7ed036260b364a1b"
+    },
+    {
+      "path": "tests/lesson-05-smoke-tests.json",
+      "sha256": "3dd7ba46214c06e62f764dcdf5ad1fa072a1e42feb90fdc981ac8b34ac87237c"
+    },
+    {
+      "path": "tests/lesson-16-smoke-tests.json",
+      "sha256": "866cee4abe887467e97e0de6aa552a8c7593c4d6c64079a6c803b9fb7dfc86f2"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/azure-openai-to-responses/SKILL.md",
+      "sha256": "f462e05bb038fa23f6ff7b45848349bcc9a2245a43859f7159849717b51cdd47"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/azure-openai-to-responses/references/cheat-sheet.md",
+      "sha256": "c62ed4253cc7ffcb1d495621d9f23e1cf1f61a7f4a0584037cbd8602d6a5f0aa"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/azure-openai-to-responses/references/test-migration.md",
+      "sha256": "ea66b5644a84cb0ad4387fc023c49521c34cf0b0b2a1c7c19cf1eb4c8fbbb08b"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/azure-openai-to-responses/references/troubleshooting.md",
+      "sha256": "1a527a4a755ad0eb6e79ae480a19b1759b57d4eb9e480561fb15e826e6b818c2"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/deploying-scalable-agents/SKILL.md",
+      "sha256": "b7a0561035b44e1346ae230a2d056e490cc51474e23e03c392fc4a5ade5d5032"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/jupyter-notebook/SKILL.md",
+      "sha256": "6efedea72a273f08955c1ae93b36f015f6e2dca5cbbbeb265f0178e45111ad71"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/jupyter-notebook/assets/experiment-template.ipynb",
+      "sha256": "58d63712a2f0bd2eafd081bea4cda8b86a5e16d0a7f70f2438c138a3961dac79"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/jupyter-notebook/assets/tutorial-template.ipynb",
+      "sha256": "a42e0ffe09cb52c4625505b84cec43989209b04162bd3b65a9ab2ca52d1a5628"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/jupyter-notebook/references/experiment-patterns.md",
+      "sha256": "fa360803562d64d3892615ad5fa8299bf8d73d096ad28e3b292bb6f52864a371"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/jupyter-notebook/references/notebook-structure.md",
+      "sha256": "9eb2f8b491c5674df4cae3da05d576aca22e2506ae52f66bde1faa94e400c616"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/jupyter-notebook/references/quality-checklist.md",
+      "sha256": "9b6397fdeb3e66ff327b85adbd9c074b43796238fa26a3415f9f718bf9719e45"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/jupyter-notebook/references/tutorial-patterns.md",
+      "sha256": "e7d5cdbd30e70c4bf599a14686fff360c2ea8e669591e0a36029db2d478e6761"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/local-ai-agents/SKILL.md",
+      "sha256": "a975f1e7e566b038ae786f557dddc641d34adff1eeddfc8046ee47d60f86e71f"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/microsoft-docs/SKILL.md",
+      "sha256": "980bd167a1928f2772b33f20124fa5414514db10788b0f9c241ad999b04f857c"
+    },
+    {
+      "path": "translations/zh-CN/.agents/skills/testing-course-samples/SKILL.md",
+      "sha256": "284c46aa311d62900426447caca87426e7904a22e2864b5a610059d928447981"
+    },
+    {
+      "path": "translations/zh-CN/.co-op-translator.json",
+      "sha256": "4711cc922dfa2e0499a87e17646b2b91e0892471d111b9f0097444fb53b36085"
+    },
+    {
+      "path": "translations/zh-CN/00-course-setup/AzureSearch.md",
+      "sha256": "5d2f67a6bc9cef5c5171c64cf38b6922b50816f1d221294ecb9270add77321bd"
+    },
+    {
+      "path": "translations/zh-CN/00-course-setup/README.md",
+      "sha256": "0305252e436888259161b1f64742f5653b7b84dbfdc3b9bf66ded2d7699ad02c"
+    },
+    {
+      "path": "translations/zh-CN/01-intro-to-ai-agents/README.md",
+      "sha256": "dc6572bfa2ba2a0f3e3cb8b0a347a051e48c81ae5a12429bb9c270c9c81ff76c"
+    },
+    {
+      "path": "translations/zh-CN/01-intro-to-ai-agents/code_samples/01-dotnet-agent-framework.md",
+      "sha256": "0aebe579710a9445f95ac1bb4822bce0685e1827d6fa09339eedbaf7f3b3fd2d"
+    },
+    {
+      "path": "translations/zh-CN/01-intro-to-ai-agents/code_samples/01-python-agent-framework.ipynb",
+      "sha256": "767708d064abb531077006171dd3e4d6c95519d9fe1f58d8567bd32261ec5a83"
+    },
+    {
+      "path": "translations/zh-CN/02-explore-agentic-frameworks/README.md",
+      "sha256": "0700ab55decca3ec0d10a838be2b8161b12730b692b9a77dc794be94c6e08cf8"
+    },
+    {
+      "path": "translations/zh-CN/02-explore-agentic-frameworks/azure-ai-foundry-agent-creation.md",
+      "sha256": "4bdcafb34974137ac52e8aada9365316f5f4430407a8f58e08cdedcd66e8eb8f"
+    },
+    {
+      "path": "translations/zh-CN/02-explore-agentic-frameworks/code_samples/02-dotnet-agent-framework.md",
+      "sha256": "0b101f11833abd13da51c4289ad8df07b36aa89d07c7a8d931721cb1bd5a2a66"
+    },
+    {
+      "path": "translations/zh-CN/02-explore-agentic-frameworks/code_samples/02-python-agent-framework-azure-openai.ipynb",
+      "sha256": "05ac99c07b777bea281fd81ce96b0cba2b7e85a48c34f37b866d06a52dbedbc9"
+    },
+    {
+      "path": "translations/zh-CN/02-explore-agentic-frameworks/code_samples/02-python-agent-framework.ipynb",
+      "sha256": "aef26ec98ec6b8b74e1ff7138550a3dc3cc52b062e78dd5bc815f5b9e938c586"
+    },
+    {
+      "path": "translations/zh-CN/03-agentic-design-patterns/README.md",
+      "sha256": "db2c16f7353c685022316775b7d56541bb3697227f606f9dfef99c49c5dea783"
+    },
+    {
+      "path": "translations/zh-CN/03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.md",
+      "sha256": "f635d24528cc3bcc75325bc8aea5bab467c645d9af1284a37272eb087227852a"
+    },
+    {
+      "path": "translations/zh-CN/03-agentic-design-patterns/code_samples/03-python-agent-framework.ipynb",
+      "sha256": "bfe889499afa8458f2530ca37d8e18539f49d0a6bb4ab42546b9d6a8b6548f3f"
+    },
+    {
+      "path": "translations/zh-CN/04-tool-use/README.md",
+      "sha256": "f78fc2f68d2a7da02e913e3311a3eec8f5b149d5f85a7eede2b9662dda11b0fd"
+    },
+    {
+      "path": "translations/zh-CN/04-tool-use/code_samples/04-dotnet-agent-framework.md",
+      "sha256": "0770f2d23bbba5f6f2be236d9246ccbe52861649d684968cf9a4c19e9a4ac0e9"
+    },
+    {
+      "path": "translations/zh-CN/04-tool-use/code_samples/04-python-agent-framework.ipynb",
+      "sha256": "9f415a105292952dbab169be7b4d3b4399d2afeec832226c8aecde8ce6380d2b"
+    },
+    {
+      "path": "translations/zh-CN/05-agentic-rag/README.md",
+      "sha256": "18cd0ea1050a71cd169d92c7cfb9835423476d11692dd0aee87882940f589232"
+    },
+    {
+      "path": "translations/zh-CN/05-agentic-rag/code_samples/05-dotnet-agent-framework.ipynb",
+      "sha256": "a9a477b14aa96b39319922439e17d507065667129e278d09778ceba51f46110a"
+    },
+    {
+      "path": "translations/zh-CN/05-agentic-rag/code_samples/05-dotnet-agent-framework.md",
+      "sha256": "40666e97423b0a6f7af54a35e9ed6ce2549e313faee30a79274b6ff0fff59f89"
+    },
+    {
+      "path": "translations/zh-CN/05-agentic-rag/code_samples/05-python-agent-framework.ipynb",
+      "sha256": "b362a129045328213a9c1d952cafec232637a951159944296e54c08ba6ca6423"
+    },
+    {
+      "path": "translations/zh-CN/05-agentic-rag/code_samples/document.md",
+      "sha256": "49aae7f2619368bba0b901e8b8d402e054b716b97c036cd67131a7e9977b501e"
+    },
+    {
+      "path": "translations/zh-CN/06-building-trustworthy-agents/README.md",
+      "sha256": "6588501595f7091c72d60c30b2a2815dbd7cf2b1b9155d9d7d2bb48ad958ff2b"
+    },
+    {
+      "path": "translations/zh-CN/06-building-trustworthy-agents/code_samples/06-human-in-the-loop.ipynb",
+      "sha256": "86d4b8655e0a4d4883a39af32aeab9042ee0957908de6c64f004e2be89bf7fcc"
+    },
+    {
+      "path": "translations/zh-CN/06-building-trustworthy-agents/code_samples/06-system-message-framework.ipynb",
+      "sha256": "f3eed8bf4ef3a5f09b0f51043b317cdf79cf8790db6a3b2b3613cbacec0df88e"
+    },
+    {
+      "path": "translations/zh-CN/07-planning-design/README.md",
+      "sha256": "84719c4229d664f26b1c530b13d8869297def33707ac317e3b2f7911dfb71b6e"
+    },
+    {
+      "path": "translations/zh-CN/07-planning-design/code_samples/07-dotnet-agent-framework.md",
+      "sha256": "74d092a3688a54258ffba58cbe8bdcb6eef7aba92c38445ddafdcd2b6e4bc715"
+    },
+    {
+      "path": "translations/zh-CN/07-planning-design/code_samples/07-python-agent-framework.ipynb",
+      "sha256": "730279e88aed5d80ddd3061e866dfad0cfb40923d3004fa4647739a987da0e5b"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/README.md",
+      "sha256": "2c20a04adcc36527ae420fe79a0c037fa1187e183e62f6c0ed51e5b24c951071"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/08-dotnet-agent-framework.md",
+      "sha256": "4af38669d913089a6c6d7b25cb90c90c145c60bd11d9e0b114d024ee6a7965fa"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/08-python-agent-framework.ipynb",
+      "sha256": "363825356cbeb0c93b66e0df47d7130e44776a60fce52663387d0570a84c3b88"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/README.md",
+      "sha256": "7a8d61ccb5d22de97c9e01d3ff5d72ce969b226b7b3c705baec22818eab4429a"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.ipynb",
+      "sha256": "3f338c1a722ed23ed667e0fd0facc9b4a629e3e79aa31bcce8152b728dc1e6e8"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.md",
+      "sha256": "619452dd93b1e80e0b8c74133057e14f1952266f4b76bd9ddc125c6e2b72d331"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.ipynb",
+      "sha256": "7dda63d30ec49828ed5ef4e03d170ae6c8532f826045ca1cf27035c7fc0eb1b9"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.md",
+      "sha256": "10ff486394a642301808d15014146ccdaf869a7ee1a3bb5372fc2e42b1a86d53"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.ipynb",
+      "sha256": "9599367d4a6435d948922e89217d3fab74e2fdbe7b65c780d786cf3d1d7a62cb"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.md",
+      "sha256": "0ca4fc286fb23af9a7530eabd034d8f12cb9bb1472bbb33ac8cae375c1151cd4"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.ipynb",
+      "sha256": "3f22cc107886d34912ce3176ef0d8882bccdc11aa184b16d3ec35c95d39a043c"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.md",
+      "sha256": "73bb8f04ef200f33aceafeac8cfbae1abd1988ee77a99341e0e4acf96489bbce"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/python/01.python-agent-framework-workflow-ghmodel-basic.ipynb",
+      "sha256": "c988c57e9925b75e147a93a29fd78b6f320dbe60dfb454f9d78caec9c958a721"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/python/02.python-agent-framework-workflow-ghmodel-sequential.ipynb",
+      "sha256": "dfc341736b31e421ad7f21f71d5f8733bbf3eae792d410ddab370fbbecfed0d1"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/python/03.python-agent-framework-workflow-ghmodel-concurrent.ipynb",
+      "sha256": "e387e619aecc51112670f2d7394ef59d3d1d007f7e2b804528e03c44fdd26f35"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/python/04.python-agent-framework-workflow-aifoundry-condition.ipynb",
+      "sha256": "3bcd0d81e625be09ade7fcfd7d4745dffd88cbb476bd8535971dc115bc567ec6"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/solution/solution-quiz.md",
+      "sha256": "0d40a1d13242f9b69d0ced9ca270ff7d72c4d4419f903fae8fa8df6473de06dc"
+    },
+    {
+      "path": "translations/zh-CN/08-multi-agent/solution/solution.md",
+      "sha256": "01252f3d17188e100a4521639d79ba4bbaaaed425ead4e9697cd4c8a1dd71d40"
+    },
+    {
+      "path": "translations/zh-CN/09-metacognition/README.md",
+      "sha256": "b88a17be13c8178809b6c867c8b7c27a87f9e5e4dc08ae15696eb4f100975f04"
+    },
+    {
+      "path": "translations/zh-CN/09-metacognition/code_samples/09-python-agent-framework.ipynb",
+      "sha256": "8a100edd48c846319c6ef3563ca743f5c33867f8ba0ecb4405a74c3e0fce4a91"
+    },
+    {
+      "path": "translations/zh-CN/10-ai-agents-production/README.md",
+      "sha256": "68e2c0ff4f36d3b5c24bff7ffa04f36194e8d0db75ad296e97bb01ee0d873a1c"
+    },
+    {
+      "path": "translations/zh-CN/10-ai-agents-production/code_samples/10-expense_claim-demo.ipynb",
+      "sha256": "b016ccbbb857519577d49162f1382fd146756c356199cce63304054ffef87a67"
+    },
+    {
+      "path": "translations/zh-CN/10-ai-agents-production/code_samples/10-python-agent-framework.ipynb",
+      "sha256": "c2361f0b201cb3841e1ab3c8bd6018ab1ba3909c3d6700b65a52bc577edcca32"
+    },
+    {
+      "path": "translations/zh-CN/11-agentic-protocols/README.md",
+      "sha256": "86085656289465d8e03a78ea20fb1d23fcb990ce261cd0af580c0b80923b73ee"
+    },
+    {
+      "path": "translations/zh-CN/11-agentic-protocols/code_samples/11-a2a-agent-framework.ipynb",
+      "sha256": "b0498d98e6740babfc5f7ef280431f99c0de622ce75f49a6c2c27521380fab7d"
+    },
+    {
+      "path": "translations/zh-CN/11-agentic-protocols/code_samples/11-mcp-agent-framework.ipynb",
+      "sha256": "4d5072782752bb7f8a4db5d6571ee6d5036df8e1c4c3ee74c96148c426b35432"
+    },
+    {
+      "path": "translations/zh-CN/11-agentic-protocols/code_samples/github-mcp/MCP_SETUP.md",
+      "sha256": "fb1da76b50f89a79b0f93e4727b0715dd682eeabc21f2a49e1efc9932f745092"
+    },
+    {
+      "path": "translations/zh-CN/11-agentic-protocols/code_samples/github-mcp/README.md",
+      "sha256": "08d34d5b62e246f0ecfc8444f279f62966bedc78992c042c8b942248b127bba8"
+    },
+    {
+      "path": "translations/zh-CN/11-agentic-protocols/code_samples/github-mcp/chainlit.md",
+      "sha256": "a521bea20b7e6ad6ec3ed8aa9fef55c0320e48cc16f05b1f0b7ad540255b1dbe"
+    },
+    {
+      "path": "translations/zh-CN/11-agentic-protocols/code_samples/github-mcp/event-descriptions.md",
+      "sha256": "08cf1446bfec3cb9412cee92457f6bc63f1ee5942a9abfc7fcc8e258f1007d70"
+    },
+    {
+      "path": "translations/zh-CN/11-agentic-protocols/code_samples/mcp-agents/README.md",
+      "sha256": "c12409cd344a3a70c3245a29897eaa2ade0ece908daadad89b83aab9dadd3333"
+    },
+    {
+      "path": "translations/zh-CN/12-context-engineering/README.md",
+      "sha256": "972090a2d890f94495f24c6e76e4c37c93221306bd7a762a1df2905effac43f5"
+    },
+    {
+      "path": "translations/zh-CN/12-context-engineering/code_samples/12-chat_summarization.ipynb",
+      "sha256": "f0a557327f2195679a5f06e7cffe0cf162bb940223f2f78cb6ddece124439c80"
+    },
+    {
+      "path": "translations/zh-CN/12-context-engineering/code_samples/vacation_agent_scratchpad.md",
+      "sha256": "e4ffbe6c4f92755eb4cc67f9186a93bea8554d261ece427f4df57e3ee8cf8a92"
+    },
+    {
+      "path": "translations/zh-CN/13-agent-memory/13-agent-memory-cognee.ipynb",
+      "sha256": "31ebcbfe7c723e321b55cad2499b282a3b0f7d6d041b1012767e3a759f6d8735"
+    },
+    {
+      "path": "translations/zh-CN/13-agent-memory/13-agent-memory.ipynb",
+      "sha256": "271a38cf0cafcb3971499d67a69556a3fa4ada926d16a0a655bccfacea2e745d"
+    },
+    {
+      "path": "translations/zh-CN/13-agent-memory/README.md",
+      "sha256": "54b193c58587903eba77caaf2d4ccfbdc607fdcd5901fa6f8ba01ffbfccf773c"
+    },
+    {
+      "path": "translations/zh-CN/14-microsoft-agent-framework/README.md",
+      "sha256": "e4e830741a7c617ff3b47d70753a1e4f710f3070c8b86459819a043b6110a0d5"
+    },
+    {
+      "path": "translations/zh-CN/14-microsoft-agent-framework/code-samples/14-concurrent.ipynb",
+      "sha256": "563374622a4d01bffb86482ce5bcaf67273526a930208b71ce7675f1584f52dc"
+    },
+    {
+      "path": "translations/zh-CN/14-microsoft-agent-framework/code-samples/14-conditional-workflow.ipynb",
+      "sha256": "ddb789fa8cbd19ec9d95238401a145cae23f2c719c404e717e885bd2d1ab74e8"
+    },
+    {
+      "path": "translations/zh-CN/14-microsoft-agent-framework/code-samples/14-handoff.ipynb",
+      "sha256": "029bdf4f57fcd8e2534928201f9f76c1709bd43cafd386b346df4055a8389162"
+    },
+    {
+      "path": "translations/zh-CN/14-microsoft-agent-framework/code-samples/14-human-loop.ipynb",
+      "sha256": "78088a68ecd03909492ee94065a554664a6ecc4bc79e12d61dfb73bd4c59ba3f"
+    },
+    {
+      "path": "translations/zh-CN/14-microsoft-agent-framework/code-samples/14-middleware.ipynb",
+      "sha256": "f62eb191237989e433a4be84108fd691f5ff16ed8c103306aa01f0608eb46786"
+    },
+    {
+      "path": "translations/zh-CN/14-microsoft-agent-framework/code-samples/14-sequential.ipynb",
+      "sha256": "cae40690739b96934f990eca566a4dd2bbf0cfa46356aa93070b305407b80012"
+    },
+    {
+      "path": "translations/zh-CN/15-browser-use/15-browser-user.ipynb",
+      "sha256": "10b7c1c08ef8cfb0dead9e90c774bbe50033363e3cb0ae18fb19a3a67be1d533"
+    },
+    {
+      "path": "translations/zh-CN/15-browser-use/README.md",
+      "sha256": "1946d739d748ff4c6231503a34ef3945030c7c48dc3e9f7bdf755be889773487"
+    },
+    {
+      "path": "translations/zh-CN/16-deploying-scalable-agents/README.md",
+      "sha256": "e372ca30d20c78fcda8aac5e10a3191f3628ca657f49f19004c495a34e5f3dbd"
+    },
+    {
+      "path": "translations/zh-CN/16-deploying-scalable-agents/code_samples/16-python-agent-framework.ipynb",
+      "sha256": "6f1f2f227a79858c364dd777c4b470e04b5eab81db6acd4ae4ef4312579bc5f8"
+    },
+    {
+      "path": "translations/zh-CN/17-creating-local-ai-agents/README.md",
+      "sha256": "6ab684c93ec2cb28c01e5e79c6ae864074e9f6a8e45317ef01dfedd17532ba4b"
+    },
+    {
+      "path": "translations/zh-CN/17-creating-local-ai-agents/code_samples/17-local-agent-foundry-local.ipynb",
+      "sha256": "3b26722bf80c587eda024fe66e1c3552c0d3b9a57ca16af2ce7a88ab38165c20"
+    },
+    {
+      "path": "translations/zh-CN/18-securing-ai-agents/README.md",
+      "sha256": "68720dbba162384ddd6e95f2d0a1ac943863644790e5595729bb1780e1a24f4a"
+    },
+    {
+      "path": "translations/zh-CN/18-securing-ai-agents/code_samples/18-signed-receipts.ipynb",
+      "sha256": "3cbe6e9ba4b26af1b022c71e9339e5ef9a21faff4d3c5912cb10531928bc126f"
+    },
+    {
+      "path": "translations/zh-CN/18-securing-ai-agents/code_samples/human-authorization-receipts.ipynb",
+      "sha256": "4c2325a275c1a029c811eb4748c6eab420286422034091802d5a76afb34e83f0"
+    },
+    {
+      "path": "translations/zh-CN/18-securing-ai-agents/code_samples/sample_receipts/README.md",
+      "sha256": "d94bb1e376c03a98da51466c24eb70e59351510f9e69220624d6c51603d79133"
+    },
+    {
+      "path": "translations/zh-CN/AGENTS.md",
+      "sha256": "89101f918bbcd7cdba69c4be37a8d7976f29c2e53b6df876c1c1b6fb0526ef2c"
+    },
+    {
+      "path": "translations/zh-CN/CHANGELOG.md",
+      "sha256": "84081886aff76f661bdff2dc34026b0921656bf9c26ce660ba86bd8424a18ce1"
+    },
+    {
+      "path": "translations/zh-CN/CODE_OF_CONDUCT.md",
+      "sha256": "c765045ad8d4c06adf22b7f93dff3ec5f13443a794de46d9f3f50658382d9bbd"
+    },
+    {
+      "path": "translations/zh-CN/README.md",
+      "sha256": "9d0ab254d18338813e2b2df313e05b7e894ed400ae9d6e1fc2ff2629cccf20fb"
+    },
+    {
+      "path": "translations/zh-CN/SECURITY.md",
+      "sha256": "8ae8ab71f1792e38e320a68d136b88aece15a05e8c09d2fe3203205ba7024e6e"
+    },
+    {
+      "path": "translations/zh-CN/STUDY_GUIDE.md",
+      "sha256": "fdabe7dd9c632ad96c7d2e4a93f20f06ec6c2b2f83bc29105ed631f7d4d2d025"
+    },
+    {
+      "path": "translations/zh-CN/SUPPORT.md",
+      "sha256": "971a9a4e3c5b3bbd54b027777603c536cca34c01c561048546bade525c899e19"
+    },
+    {
+      "path": "translations/zh-CN/tests/README.md",
+      "sha256": "3423e3ea21449a5b4ced92a8301ba6813c85822281314573c1c85c62d8ecfa44"
+    }
+  ]
+}

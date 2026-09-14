@@ -1,0 +1,5 @@
+# Optional Microsoft Foundry adapter. Install in a separate virtual environment.
+agent-framework-core==1.10.0
+agent-framework-foundry==1.10.0
+azure-identity==1.25.0
+python-dotenv==1.1.1

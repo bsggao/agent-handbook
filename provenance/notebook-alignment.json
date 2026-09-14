@@ -1,0 +1,268 @@
+[
+  {
+    "path": "01-intro-to-ai-agents/code_samples/01-python-agent-framework.ipynb",
+    "englishCells": 10,
+    "chineseCellsWithoutDisclaimer": 10,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "02-explore-agentic-frameworks/code_samples/02-python-agent-framework-azure-openai.ipynb",
+    "englishCells": 11,
+    "chineseCellsWithoutDisclaimer": 11,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "02-explore-agentic-frameworks/code_samples/02-python-agent-framework.ipynb",
+    "englishCells": 14,
+    "chineseCellsWithoutDisclaimer": 14,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "03-agentic-design-patterns/code_samples/03-python-agent-framework.ipynb",
+    "englishCells": 11,
+    "chineseCellsWithoutDisclaimer": 11,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "04-tool-use/code_samples/04-python-agent-framework.ipynb",
+    "englishCells": 14,
+    "chineseCellsWithoutDisclaimer": 14,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "05-agentic-rag/code_samples/05-dotnet-agent-framework.ipynb",
+    "englishCells": 20,
+    "chineseCellsWithoutDisclaimer": 20,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "05-agentic-rag/code_samples/05-python-agent-framework.ipynb",
+    "englishCells": 13,
+    "chineseCellsWithoutDisclaimer": 13,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "06-building-trustworthy-agents/code_samples/06-human-in-the-loop.ipynb",
+    "englishCells": 10,
+    "chineseCellsWithoutDisclaimer": 10,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "06-building-trustworthy-agents/code_samples/06-system-message-framework.ipynb",
+    "englishCells": 4,
+    "chineseCellsWithoutDisclaimer": 4,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "07-planning-design/code_samples/07-python-agent-framework.ipynb",
+    "englishCells": 12,
+    "chineseCellsWithoutDisclaimer": 12,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/08-python-agent-framework.ipynb",
+    "englishCells": 12,
+    "chineseCellsWithoutDisclaimer": 12,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/workflows-agent-framework/python/02.python-agent-framework-workflow-ghmodel-sequential.ipynb",
+    "englishCells": 18,
+    "chineseCellsWithoutDisclaimer": 18,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/workflows-agent-framework/python/03.python-agent-framework-workflow-ghmodel-concurrent.ipynb",
+    "englishCells": 12,
+    "chineseCellsWithoutDisclaimer": 12,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/workflows-agent-framework/python/01.python-agent-framework-workflow-ghmodel-basic.ipynb",
+    "englishCells": 15,
+    "chineseCellsWithoutDisclaimer": 15,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/workflows-agent-framework/python/04.python-agent-framework-workflow-aifoundry-condition.ipynb",
+    "englishCells": 15,
+    "chineseCellsWithoutDisclaimer": 15,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.ipynb",
+    "englishCells": 20,
+    "chineseCellsWithoutDisclaimer": 20,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.ipynb",
+    "englishCells": 41,
+    "chineseCellsWithoutDisclaimer": 41,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.ipynb",
+    "englishCells": 22,
+    "chineseCellsWithoutDisclaimer": 22,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.ipynb",
+    "englishCells": 24,
+    "chineseCellsWithoutDisclaimer": 24,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "09-metacognition/code_samples/09-python-agent-framework.ipynb",
+    "englishCells": 13,
+    "chineseCellsWithoutDisclaimer": 13,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "10-ai-agents-production/code_samples/10-expense_claim-demo.ipynb",
+    "englishCells": 15,
+    "chineseCellsWithoutDisclaimer": 15,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "10-ai-agents-production/code_samples/10-python-agent-framework.ipynb",
+    "englishCells": 13,
+    "chineseCellsWithoutDisclaimer": 13,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "11-agentic-protocols/code_samples/11-mcp-agent-framework.ipynb",
+    "englishCells": 12,
+    "chineseCellsWithoutDisclaimer": 12,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "11-agentic-protocols/code_samples/11-a2a-agent-framework.ipynb",
+    "englishCells": 12,
+    "chineseCellsWithoutDisclaimer": 12,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "12-context-engineering/code_samples/12-chat_summarization.ipynb",
+    "englishCells": 16,
+    "chineseCellsWithoutDisclaimer": 16,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "13-agent-memory/13-agent-memory.ipynb",
+    "englishCells": 20,
+    "chineseCellsWithoutDisclaimer": 20,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "13-agent-memory/13-agent-memory-cognee.ipynb",
+    "englishCells": 25,
+    "chineseCellsWithoutDisclaimer": 25,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "14-microsoft-agent-framework/code-samples/14-human-loop.ipynb",
+    "englishCells": 24,
+    "chineseCellsWithoutDisclaimer": 24,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "14-microsoft-agent-framework/code-samples/14-sequential.ipynb",
+    "englishCells": 13,
+    "chineseCellsWithoutDisclaimer": 13,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "14-microsoft-agent-framework/code-samples/14-concurrent.ipynb",
+    "englishCells": 17,
+    "chineseCellsWithoutDisclaimer": 17,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "14-microsoft-agent-framework/code-samples/14-handoff.ipynb",
+    "englishCells": 21,
+    "chineseCellsWithoutDisclaimer": 21,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "14-microsoft-agent-framework/code-samples/14-middleware.ipynb",
+    "englishCells": 27,
+    "chineseCellsWithoutDisclaimer": 27,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "14-microsoft-agent-framework/code-samples/14-conditional-workflow.ipynb",
+    "englishCells": 20,
+    "chineseCellsWithoutDisclaimer": 20,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "15-browser-use/15-browser-user.ipynb",
+    "englishCells": 22,
+    "chineseCellsWithoutDisclaimer": 22,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "16-deploying-scalable-agents/code_samples/16-python-agent-framework.ipynb",
+    "englishCells": 20,
+    "chineseCellsWithoutDisclaimer": 20,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "17-creating-local-ai-agents/code_samples/17-local-agent-foundry-local.ipynb",
+    "englishCells": 20,
+    "chineseCellsWithoutDisclaimer": 20,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "18-securing-ai-agents/code_samples/18-signed-receipts.ipynb",
+    "englishCells": 30,
+    "chineseCellsWithoutDisclaimer": 30,
+    "aligned": true,
+    "codeSource": "English original"
+  },
+  {
+    "path": "18-securing-ai-agents/code_samples/human-authorization-receipts.ipynb",
+    "englishCells": 12,
+    "chineseCellsWithoutDisclaimer": 12,
+    "aligned": true,
+    "codeSource": "English original"
+  }
+]

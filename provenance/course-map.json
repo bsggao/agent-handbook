@@ -1,0 +1,542 @@
+[
+  {
+    "id": "00",
+    "slug": "setup",
+    "title": "环境配置与学习准备",
+    "group": "从这里开始",
+    "summary": "准备 Python、运行环境与第一个实验。",
+    "minutes": 35,
+    "source": "00-course-setup",
+    "page": "docs/lessons/setup.md",
+    "english": "00-course-setup/README.md",
+    "chinese": "translations/zh-CN/00-course-setup/README.md",
+    "englishChars": 18747,
+    "chineseChars": 10508,
+    "pageChars": 7641,
+    "code": [
+      "00-course-setup/AzureSearch.cs"
+    ],
+    "materials": [
+      "00-course-setup/AzureSearch.md"
+    ],
+    "images": [],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "01",
+    "slug": "introduction",
+    "title": "AI Agent 入门与应用场景",
+    "group": "从这里开始",
+    "summary": "从一个旅行助手理解 Agent 的工作方式。",
+    "minutes": 40,
+    "source": "01-intro-to-ai-agents",
+    "page": "docs/lessons/introduction.md",
+    "english": "01-intro-to-ai-agents/README.md",
+    "chinese": "translations/zh-CN/01-intro-to-ai-agents/README.md",
+    "englishChars": 7592,
+    "chineseChars": 3946,
+    "pageChars": 7724,
+    "code": [
+      "01-intro-to-ai-agents/code_samples/01-python-agent-framework.ipynb",
+      "01-intro-to-ai-agents/code_samples/01-dotnet-agent-framework.cs"
+    ],
+    "materials": [
+      "01-intro-to-ai-agents/code_samples/01-dotnet-agent-framework.md"
+    ],
+    "images": [
+      "/diagrams/agent-loop.svg",
+      "/upstream-assets/translated_images/zh-CN/what-are-ai-agents.1ec8c4d548af601a.webp",
+      "/upstream-assets/translated_images/zh-CN/when-to-use-ai-agents.54becb3bed74a479.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "02",
+    "slug": "frameworks",
+    "title": "探索 Agent 框架",
+    "group": "从这里开始",
+    "summary": "理解框架负责什么，以及如何选择。",
+    "minutes": 45,
+    "source": "02-explore-agentic-frameworks",
+    "page": "docs/lessons/frameworks.md",
+    "english": "02-explore-agentic-frameworks/README.md",
+    "chinese": "translations/zh-CN/02-explore-agentic-frameworks/README.md",
+    "englishChars": 22073,
+    "chineseChars": 12966,
+    "pageChars": 16159,
+    "code": [
+      "02-explore-agentic-frameworks/code_samples/02-dotnet-agent-framework.cs",
+      "02-explore-agentic-frameworks/code_samples/02-python-agent-framework-azure-openai.ipynb",
+      "02-explore-agentic-frameworks/code_samples/02-python-agent-framework.ipynb"
+    ],
+    "materials": [
+      "02-explore-agentic-frameworks/azure-ai-foundry-agent-creation.md",
+      "02-explore-agentic-frameworks/code_samples/02-dotnet-agent-framework.md"
+    ],
+    "images": [],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "03",
+    "slug": "design-patterns",
+    "title": "Agent 设计模式",
+    "group": "核心设计模式",
+    "summary": "将目标、行动、反馈组织成可靠的系统。",
+    "minutes": 40,
+    "source": "03-agentic-design-patterns",
+    "page": "docs/lessons/design-patterns.md",
+    "english": "03-agentic-design-patterns/README.md",
+    "chinese": "translations/zh-CN/03-agentic-design-patterns/README.md",
+    "englishChars": 7387,
+    "chineseChars": 3216,
+    "pageChars": 5307,
+    "code": [
+      "03-agentic-design-patterns/code_samples/03-python-agent-framework.ipynb",
+      "03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.cs"
+    ],
+    "materials": [
+      "03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.md"
+    ],
+    "images": [
+      "/upstream-assets/translated_images/zh-CN/agentic-design-principles.1cfdf8b6d3cc73c2.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "04",
+    "slug": "tools",
+    "title": "工具调用",
+    "group": "核心设计模式",
+    "summary": "让模型提出请求，让应用安全地执行。",
+    "minutes": 55,
+    "source": "04-tool-use",
+    "page": "docs/lessons/tools.md",
+    "english": "04-tool-use/README.md",
+    "chinese": "translations/zh-CN/04-tool-use/README.md",
+    "englishChars": 19425,
+    "chineseChars": 11883,
+    "pageChars": 15140,
+    "code": [
+      "04-tool-use/code_samples/04-python-agent-framework.ipynb",
+      "04-tool-use/code_samples/test_demo_plugins.py",
+      "04-tool-use/code_samples/04-dotnet-agent-framework.cs"
+    ],
+    "materials": [
+      "04-tool-use/code_samples/04-dotnet-agent-framework.md"
+    ],
+    "images": [
+      "/diagrams/tool-sequence.svg",
+      "/upstream-assets/translated_images/zh-CN/functioncalling-diagram.a84006fc287f6014.webp",
+      "/upstream-assets/translated_images/zh-CN/agent-service-in-action.34fb465c9a84659e.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "05",
+    "slug": "rag",
+    "title": "Agentic RAG",
+    "group": "核心设计模式",
+    "summary": "从文档中找证据，给回答附上出处。",
+    "minutes": 60,
+    "source": "05-agentic-rag",
+    "page": "docs/lessons/rag.md",
+    "english": "05-agentic-rag/README.md",
+    "chinese": "translations/zh-CN/05-agentic-rag/README.md",
+    "englishChars": 16242,
+    "chineseChars": 7058,
+    "pageChars": 9855,
+    "code": [
+      "05-agentic-rag/code_samples/05-dotnet-agent-framework.cs",
+      "05-agentic-rag/code_samples/05-dotnet-agent-framework.ipynb",
+      "05-agentic-rag/code_samples/05-python-agent-framework.ipynb"
+    ],
+    "materials": [
+      "05-agentic-rag/code_samples/document.md",
+      "05-agentic-rag/code_samples/05-dotnet-agent-framework.md"
+    ],
+    "images": [
+      "/diagrams/rag-comparison.svg",
+      "/upstream-assets/translated_images/zh-CN/agentic-rag-core-loop.c8f4b85c26920f71.webp",
+      "/upstream-assets/translated_images/zh-CN/tool-integration.0f569710b5c17c10.webp",
+      "/upstream-assets/translated_images/zh-CN/self-correction.da87f3783b7f174b.webp",
+      "/upstream-assets/translated_images/zh-CN/AgentRunExample.471a94bc40cbdc0c.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "06",
+    "slug": "trust",
+    "title": "构建可信赖的 Agent",
+    "group": "核心设计模式",
+    "summary": "设置边界，把人纳入关键决策。",
+    "minutes": 45,
+    "source": "06-building-trustworthy-agents",
+    "page": "docs/lessons/trust.md",
+    "english": "06-building-trustworthy-agents/README.md",
+    "chinese": "translations/zh-CN/06-building-trustworthy-agents/README.md",
+    "englishChars": 12883,
+    "chineseChars": 8117,
+    "pageChars": 10804,
+    "code": [
+      "06-building-trustworthy-agents/code_samples/06-human-in-the-loop.ipynb",
+      "06-building-trustworthy-agents/code_samples/06-system-message-framework.ipynb"
+    ],
+    "materials": [],
+    "images": [
+      "/upstream-assets/translated_images/zh-CN/system-message-framework.3a97368c92d11d68.webp",
+      "/upstream-assets/translated_images/zh-CN/understanding-threats.89edeada8a97fc0f.webp",
+      "/upstream-assets/translated_images/zh-CN/human-in-the-loop.5f0068a678f62f4f.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "07",
+    "slug": "planning",
+    "title": "规划模式",
+    "group": "核心设计模式",
+    "summary": "拆解任务、跟踪依赖，并根据结果调整。",
+    "minutes": 50,
+    "source": "07-planning-design",
+    "page": "docs/lessons/planning.md",
+    "english": "07-planning-design/README.md",
+    "chinese": "translations/zh-CN/07-planning-design/README.md",
+    "englishChars": 12510,
+    "chineseChars": 8619,
+    "pageChars": 11522,
+    "code": [
+      "07-planning-design/code_samples/07-python-agent-framework.ipynb",
+      "07-planning-design/code_samples/07-dotnet-agent-framework.cs"
+    ],
+    "materials": [
+      "07-planning-design/code_samples/07-dotnet-agent-framework.md"
+    ],
+    "images": [
+      "/diagrams/planning.svg",
+      "/upstream-assets/translated_images/zh-CN/defining-goals-tasks.d70439e19e37c47a.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "08",
+    "slug": "multi-agent",
+    "title": "多 Agent 协作",
+    "group": "核心设计模式",
+    "summary": "用清晰的角色、交接和汇总协作。",
+    "minutes": 65,
+    "source": "08-multi-agent",
+    "page": "docs/lessons/multi-agent.md",
+    "english": "08-multi-agent/README.md",
+    "chinese": "translations/zh-CN/08-multi-agent/README.md",
+    "englishChars": 16906,
+    "chineseChars": 5620,
+    "pageChars": 11046,
+    "code": [
+      "08-multi-agent/code_samples/08-dotnet-agent-framework.cs",
+      "08-multi-agent/code_samples/08-python-agent-framework.ipynb",
+      "08-multi-agent/code_samples/workflows-agent-framework/python/02.python-agent-framework-workflow-ghmodel-sequential.ipynb",
+      "08-multi-agent/code_samples/workflows-agent-framework/python/03.python-agent-framework-workflow-ghmodel-concurrent.ipynb",
+      "08-multi-agent/code_samples/workflows-agent-framework/python/01.python-agent-framework-workflow-ghmodel-basic.ipynb",
+      "08-multi-agent/code_samples/workflows-agent-framework/python/04.python-agent-framework-workflow-aifoundry-condition.ipynb",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.ipynb",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.cs",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.cs",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.ipynb",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.cs",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.cs",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.ipynb",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.ipynb"
+    ],
+    "materials": [
+      "08-multi-agent/code_samples/08-dotnet-agent-framework.md",
+      "08-multi-agent/solution/solution-quiz.md",
+      "08-multi-agent/solution/solution.md",
+      "08-multi-agent/code_samples/workflows-agent-framework/README.md",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.md",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.md",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.md",
+      "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.md"
+    ],
+    "images": [
+      "/diagrams/multi-agent.svg",
+      "/upstream-assets/translated_images/zh-CN/multi-agent-group-chat.ec10f4cde556babd.webp",
+      "/upstream-assets/translated_images/zh-CN/multi-agent-hand-off.4c5fb00ba6f8750a.webp",
+      "/upstream-assets/translated_images/zh-CN/multi-agent-filtering.d959cb129dc9f608.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "09",
+    "slug": "reflection",
+    "title": "元认知与反思",
+    "group": "核心设计模式",
+    "summary": "检查可观察的结果，改进下一次行动。",
+    "minutes": 45,
+    "source": "09-metacognition",
+    "page": "docs/lessons/reflection.md",
+    "english": "09-metacognition/README.md",
+    "chinese": "translations/zh-CN/09-metacognition/README.md",
+    "englishChars": 64695,
+    "chineseChars": 41219,
+    "pageChars": 44737,
+    "code": [
+      "09-metacognition/code_samples/09-python-agent-framework.ipynb"
+    ],
+    "materials": [],
+    "images": [
+      "/upstream-assets/translated_images/zh-CN/importance-of-metacognition.b381afe9aae352f7.webp",
+      "/upstream-assets/translated_images/zh-CN/rag-vs-context.9eae588520c00921.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "10",
+    "slug": "production",
+    "title": "Agent 生产实践",
+    "group": "走向真实应用",
+    "summary": "从一次跑通走向可观测、可评估的服务。",
+    "minutes": 60,
+    "source": "10-ai-agents-production",
+    "page": "docs/lessons/production.md",
+    "english": "10-ai-agents-production/README.md",
+    "chinese": "translations/zh-CN/10-ai-agents-production/README.md",
+    "englishChars": 16349,
+    "chineseChars": 6420,
+    "pageChars": 9292,
+    "code": [
+      "10-ai-agents-production/code_samples/10-expense_claim-demo.ipynb",
+      "10-ai-agents-production/code_samples/10-python-agent-framework.ipynb"
+    ],
+    "materials": [],
+    "images": [],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "11",
+    "slug": "protocols",
+    "title": "Agent 协议：MCP、A2A、NLWeb",
+    "group": "走向真实应用",
+    "summary": "连接工具、其他 Agent 与网站知识。",
+    "minutes": 65,
+    "source": "11-agentic-protocols",
+    "page": "docs/lessons/protocols.md",
+    "english": "11-agentic-protocols/README.md",
+    "chinese": "translations/zh-CN/11-agentic-protocols/README.md",
+    "englishChars": 13183,
+    "chineseChars": 5825,
+    "pageChars": 10270,
+    "code": [
+      "11-agentic-protocols/code_samples/11-mcp-agent-framework.ipynb",
+      "11-agentic-protocols/code_samples/11-a2a-agent-framework.ipynb",
+      "11-agentic-protocols/code_samples/github-mcp/app.py",
+      "11-agentic-protocols/code_samples/mcp-agents/server/server.py",
+      "11-agentic-protocols/code_samples/mcp-agents/server/__init__.py",
+      "11-agentic-protocols/code_samples/mcp-agents/server/event_store.py",
+      "11-agentic-protocols/code_samples/mcp-agents/server/test_event_store.py",
+      "11-agentic-protocols/code_samples/mcp-agents/client/client.py",
+      "11-agentic-protocols/code_samples/mcp-agents/client/__init__.py",
+      "11-agentic-protocols/code_samples/mcp-agents/client/resumable_client.py",
+      "11-agentic-protocols/code_samples/mcp-agents/client/utils.py"
+    ],
+    "materials": [
+      "11-agentic-protocols/code_samples/mcp-agents/README.md",
+      "11-agentic-protocols/code_samples/github-mcp/README.md",
+      "11-agentic-protocols/code_samples/github-mcp/event-descriptions.md",
+      "11-agentic-protocols/code_samples/github-mcp/MCP_SETUP.md",
+      "11-agentic-protocols/code_samples/github-mcp/chainlit.md"
+    ],
+    "images": [
+      "/diagrams/mcp.svg",
+      "/upstream-assets/translated_images/zh-CN/mcp-diagram.e4ca1cbd551444a1.webp",
+      "/upstream-assets/translated_images/zh-CN/A2A-Diagram.8666928d648acc26.webp",
+      "/upstream-assets/translated_images/zh-CN/nlweb-diagram.c1e2390b310e5fe4.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "12",
+    "slug": "context",
+    "title": "上下文工程",
+    "group": "走向真实应用",
+    "summary": "为每次模型调用选取合适的信息。",
+    "minutes": 45,
+    "source": "12-context-engineering",
+    "page": "docs/lessons/context.md",
+    "english": "12-context-engineering/README.md",
+    "chinese": "translations/zh-CN/12-context-engineering/README.md",
+    "englishChars": 14691,
+    "chineseChars": 5533,
+    "pageChars": 7638,
+    "code": [
+      "12-context-engineering/code_samples/12-chat_summarization.ipynb"
+    ],
+    "materials": [
+      "12-context-engineering/code_samples/vacation_agent_scratchpad.md"
+    ],
+    "images": [
+      "/diagrams/context-memory.svg"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "13",
+    "slug": "memory",
+    "title": "Agent 记忆",
+    "group": "走向真实应用",
+    "summary": "让信息跨会话延续，同时保持可控。",
+    "minutes": 50,
+    "source": "13-agent-memory",
+    "page": "docs/lessons/memory.md",
+    "english": "13-agent-memory/README.md",
+    "chinese": "translations/zh-CN/13-agent-memory/README.md",
+    "englishChars": 12320,
+    "chineseChars": 5100,
+    "pageChars": 7807,
+    "code": [
+      "13-agent-memory/13-agent-memory.ipynb",
+      "13-agent-memory/13-agent-memory-cognee.ipynb"
+    ],
+    "materials": [],
+    "images": [],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "14",
+    "slug": "agent-framework",
+    "title": "Microsoft Agent Framework",
+    "group": "进阶工程实践",
+    "summary": "用工作流、交接与中间件组织应用。",
+    "minutes": 70,
+    "source": "14-microsoft-agent-framework",
+    "page": "docs/lessons/agent-framework.md",
+    "english": "14-microsoft-agent-framework/README.md",
+    "chinese": "translations/zh-CN/14-microsoft-agent-framework/README.md",
+    "englishChars": 18867,
+    "chineseChars": 12764,
+    "pageChars": 17187,
+    "code": [
+      "14-microsoft-agent-framework/code-samples/14-langchain-hosted-agent.py",
+      "14-microsoft-agent-framework/code-samples/14-human-loop.ipynb",
+      "14-microsoft-agent-framework/code-samples/14-sequential.ipynb",
+      "14-microsoft-agent-framework/code-samples/14-concurrent.ipynb",
+      "14-microsoft-agent-framework/code-samples/14-handoff.ipynb",
+      "14-microsoft-agent-framework/code-samples/14-middleware.ipynb",
+      "14-microsoft-agent-framework/code-samples/hotel_booking_workflow_sample.py",
+      "14-microsoft-agent-framework/code-samples/14-conditional-workflow.ipynb"
+    ],
+    "materials": [],
+    "images": [
+      "/upstream-assets/translated_images/zh-CN/framework-intro.077af16617cf130c.webp",
+      "/upstream-assets/translated_images/zh-CN/agent-components.410a06daf87b4fef.webp"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "15",
+    "slug": "browser-use",
+    "title": "Computer Use 与 Browser Use",
+    "group": "进阶工程实践",
+    "summary": "理解观察、操作、验证的界面自动化循环。",
+    "minutes": 50,
+    "source": "15-browser-use",
+    "page": "docs/lessons/browser-use.md",
+    "english": "15-browser-use/README.md",
+    "chinese": "translations/zh-CN/15-browser-use/README.md",
+    "englishChars": 11998,
+    "chineseChars": 5520,
+    "pageChars": 8560,
+    "code": [
+      "15-browser-use/15-browser-user.ipynb"
+    ],
+    "materials": [],
+    "images": [],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "16",
+    "slug": "deployment",
+    "title": "可扩展部署",
+    "group": "进阶工程实践",
+    "summary": "处理并发、成本、故障和服务边界。",
+    "minutes": 65,
+    "source": "16-deploying-scalable-agents",
+    "page": "docs/lessons/deployment.md",
+    "english": "16-deploying-scalable-agents/README.md",
+    "chinese": "translations/zh-CN/16-deploying-scalable-agents/README.md",
+    "englishChars": 23658,
+    "chineseChars": 12458,
+    "pageChars": 15407,
+    "code": [
+      "16-deploying-scalable-agents/code_samples/16-python-agent-framework.ipynb"
+    ],
+    "materials": [],
+    "images": [
+      "/diagrams/deployment.svg"
+    ],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "17",
+    "slug": "local-agents",
+    "title": "本地 Agent",
+    "group": "进阶工程实践",
+    "summary": "在本地运行模型、检索与工具。",
+    "minutes": 55,
+    "source": "17-creating-local-ai-agents",
+    "page": "docs/lessons/local-agents.md",
+    "english": "17-creating-local-ai-agents/README.md",
+    "chinese": "translations/zh-CN/17-creating-local-ai-agents/README.md",
+    "englishChars": 16825,
+    "chineseChars": 8934,
+    "pageChars": 11937,
+    "code": [
+      "17-creating-local-ai-agents/code_samples/17-local-agent-foundry-local.ipynb"
+    ],
+    "materials": [],
+    "images": [],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  },
+  {
+    "id": "18",
+    "slug": "security",
+    "title": "Agent 安全",
+    "group": "进阶工程实践",
+    "summary": "验证授权与执行记录，防止越权和篡改。",
+    "minutes": 60,
+    "source": "18-securing-ai-agents",
+    "page": "docs/lessons/security.md",
+    "english": "18-securing-ai-agents/README.md",
+    "chinese": "translations/zh-CN/18-securing-ai-agents/README.md",
+    "englishChars": 26667,
+    "chineseChars": 12770,
+    "pageChars": 16201,
+    "code": [
+      "18-securing-ai-agents/code_samples/18-signed-receipts.ipynb",
+      "18-securing-ai-agents/code_samples/human-authorization-receipts.ipynb",
+      "18-securing-ai-agents/code_samples/sample_receipts/generate_fixtures.py"
+    ],
+    "materials": [
+      "18-securing-ai-agents/code_samples/sample_receipts/README.md"
+    ],
+    "images": [],
+    "status": "teaching-complete",
+    "verification": "cloud-not-executed"
+  }
+]

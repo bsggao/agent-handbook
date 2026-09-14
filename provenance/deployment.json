@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-15T00:15:36.007045+08:00",
+  "status": "production-published",
+  "url": "https://gaogaoai.cn/agent-handbook/",
+  "siteId": "23d7fb77-075f-4327-a7c1-bc66012fd37d",
+  "siteName": "prompt-vault-cn",
+  "deployId": "6aa81ca95e36a16964558968",
+  "deployUrl": "https://6aa81ca95e36a16964558968--prompt-vault-cn.netlify.app",
+  "deployLogs": "https://app.netlify.com/projects/prompt-vault-cn/deploys/6aa81ca95e36a16964558968",
+  "baselineDeployId": "6aa4585cfc4c3e69df1da9fc",
+  "verifiedPreviewDeployId": "6aa81c29514ae36d33830dc7",
+  "sourceCommit": "25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595",
+  "base": "/agent-handbook/",
+  "checks": {
+    "productionFiles": {
+      "checkedFiles": 591,
+      "remoteDeployIds": [
+        "6aa81ca95e36a16964558968"
+      ],
+      "rootPreserved": true,
+      "rootFiles": 21,
+      "errors": []
+    },
+    "productionHttp": [
+      {
+        "path": "/",
+        "status": 200,
+        "url": "https://gaogaoai.cn/",
+        "type": "text/html; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/",
+        "type": "text/html; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/",
+        "type": "text/html; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/lessons/tools.html",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/lessons/tools.html",
+        "type": "text/html; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/lessons/rag.html",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/lessons/rag.html",
+        "type": "text/html; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/lessons/security.html",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/lessons/security.html",
+        "type": "text/html; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/guide/glossary.html",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/guide/glossary.html",
+        "type": "text/html; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/does-not-exist",
+        "status": 404,
+        "type": "text/html; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/sitemap.xml",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/sitemap.xml",
+        "type": "application/xml",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/assets/index-B0ddJjUl.js",
+        "status": 200,
+        "url": "https://gaogaoai.cn/assets/index-B0ddJjUl.js",
+        "type": "application/javascript; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/assets/bootstrap.0d052034cf57d221.js",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/assets/bootstrap.0d052034cf57d221.js",
+        "type": "application/javascript; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/assets/bootstrap.b669b26edd6f7f45.js",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/assets/bootstrap.b669b26edd6f7f45.js",
+        "type": "application/javascript; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/assets/bootstrap.2dad6bd154a4d0fa.js",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/assets/bootstrap.2dad6bd154a4d0fa.js",
+        "type": "application/javascript; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/assets/app.aPpvBRpT.js",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/assets/app.aPpvBRpT.js",
+        "type": "application/javascript; charset=UTF-8",
+        "csp": "script-src 'self'"
+      },
+      {
+        "path": "/agent-handbook/notebooks/13-agent-memory/13-agent-memory.ipynb",
+        "status": 200,
+        "url": "https://gaogaoai.cn/agent-handbook/notebooks/13-agent-memory/13-agent-memory.ipynb",
+        "type": "application/x-ipynb+json",
+        "csp": "script-src 'self'"
+      }
+    ],
+    "localBuild": "116 HTML pages; build and typecheck passed",
+    "contentLinks": "569 local Markdown links; all built links, anchors and resources passed",
+    "bootstrap": "executed with dynamic code generation disabled; Chinese/English tokenizer and sitemap passed",
+    "browserWithProductionCsp": {
+      "origin": "http://localhost:4180/agent-handbook/",
+      "result": "Chinese search, English MCP search, tools/RAG/multi-agent next and reset passed; no console errors"
+    },
+    "productionBrowser": "Remote browser navigation did not complete reliably; online HTTP and all-file hashes verified instead. No claim of production-browser interaction verification.",
+    "upstreamGitBlobs": "238 source files checked against retrieval SHA-256; passed"
+  },
+  "github": {
+    "status": "pending-authentication",
+    "intendedRepository": "bsggao/agent-handbook",
+    "reason": "GitHub connector has no create-repository action; local gh is not authenticated."
+  },
+  "deploymentNotes": [
+    "Initial CLI streamed upload stalled; resumed the same preview with buffered Netlify SDK uploads and explicit timeouts.",
+    "Redundant slash redirect caused a preview-only loop; removed and verified before publishing.",
+    "No DNS or root-site content changes. 21 original content files preserved byte-for-byte.",
+    "Manual deployment. No GitHub-triggered continuous deployment configured."
+  ]
+}

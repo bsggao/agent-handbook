@@ -1,0 +1,492 @@
+[
+  {
+    "path": "00-course-setup/images/forked-repo.png",
+    "status": "local",
+    "bytes": 47262
+  },
+  {
+    "path": "00-course-setup/images/project-endpoint.png",
+    "status": "local",
+    "bytes": 59390
+  },
+  {
+    "path": "01-intro-to-ai-agents/images/lesson-1-thumbnail.png",
+    "status": "local",
+    "bytes": 4831384
+  },
+  {
+    "path": "01-intro-to-ai-agents/images/what-are-ai-agents.png",
+    "status": "local",
+    "bytes": 149991
+  },
+  {
+    "path": "01-intro-to-ai-agents/images/when-to-use-ai-agents.png",
+    "status": "local",
+    "bytes": 122376
+  },
+  {
+    "path": "02-explore-agentic-frameworks/images/agent-playground.png",
+    "status": "local",
+    "bytes": 66232
+  },
+  {
+    "path": "02-explore-agentic-frameworks/images/agent-setup.png",
+    "status": "local",
+    "bytes": 154012
+  },
+  {
+    "path": "02-explore-agentic-frameworks/images/azure-ai-foundry.png",
+    "status": "local",
+    "bytes": 129852
+  },
+  {
+    "path": "02-explore-agentic-frameworks/images/lesson-2-thumbnail.png",
+    "status": "local",
+    "bytes": 4767628
+  },
+  {
+    "path": "02-explore-agentic-frameworks/images/model-deployment.png",
+    "status": "local",
+    "bytes": 174557
+  },
+  {
+    "path": "03-agentic-design-patterns/images/agentic-design-principles.png",
+    "status": "local",
+    "bytes": 100970
+  },
+  {
+    "path": "03-agentic-design-patterns/images/lesson-3-thumbnail.png",
+    "status": "local",
+    "bytes": 4789771
+  },
+  {
+    "path": "04-tool-use/images/agent-service-in-action.jpg",
+    "status": "local",
+    "bytes": 155591
+  },
+  {
+    "path": "04-tool-use/images/functioncalling-diagram.png",
+    "status": "local",
+    "bytes": 45112
+  },
+  {
+    "path": "04-tool-use/images/lesson-4-thumbnail.png",
+    "status": "local",
+    "bytes": 4713709
+  },
+  {
+    "path": "05-agentic-rag/images/AgentRunExample.png",
+    "status": "local",
+    "bytes": 273365
+  },
+  {
+    "path": "05-agentic-rag/images/agentic-rag-core-loop.png",
+    "status": "local",
+    "bytes": 4043713
+  },
+  {
+    "path": "05-agentic-rag/images/lesson-5-thumbnail.png",
+    "status": "local",
+    "bytes": 4818276
+  },
+  {
+    "path": "05-agentic-rag/images/self-correction.png",
+    "status": "local",
+    "bytes": 142593
+  },
+  {
+    "path": "05-agentic-rag/images/tool-integration.png",
+    "status": "local",
+    "bytes": 166746
+  },
+  {
+    "path": "06-building-trustworthy-agents/images/human-in-the-loop.png",
+    "status": "local",
+    "bytes": 137707
+  },
+  {
+    "path": "06-building-trustworthy-agents/images/lesson-6-thumbnail.png",
+    "status": "local",
+    "bytes": 4767491
+  },
+  {
+    "path": "06-building-trustworthy-agents/images/system-message-framework.png",
+    "status": "local",
+    "bytes": 151425
+  },
+  {
+    "path": "06-building-trustworthy-agents/images/understanding-threats.png",
+    "status": "local",
+    "bytes": 161130
+  },
+  {
+    "path": "07-planning-design/images/defining-goals-tasks.png",
+    "status": "local",
+    "bytes": 109100
+  },
+  {
+    "path": "07-planning-design/images/lesson-7-thumbnail.png",
+    "status": "local",
+    "bytes": 4691791
+  },
+  {
+    "path": "08-multi-agent/images/lesson-8-thumbnail.png",
+    "status": "local",
+    "bytes": 4762708
+  },
+  {
+    "path": "08-multi-agent/images/multi-agent-filtering.png",
+    "status": "local",
+    "bytes": 114055
+  },
+  {
+    "path": "08-multi-agent/images/multi-agent-group-chat.png",
+    "status": "local",
+    "bytes": 131145
+  },
+  {
+    "path": "08-multi-agent/images/multi-agent-hand-off.png",
+    "status": "local",
+    "bytes": 123384
+  },
+  {
+    "path": "09-metacognition/images/importance-of-metacognition.png",
+    "status": "local",
+    "bytes": 204320
+  },
+  {
+    "path": "09-metacognition/images/lesson-9-thumbnail.png",
+    "status": "local",
+    "bytes": 4799721
+  },
+  {
+    "path": "09-metacognition/images/rag-vs-context.png",
+    "status": "local",
+    "bytes": 174700
+  },
+  {
+    "path": "10-ai-agents-production/images/lesson-10-thumbnail.png",
+    "status": "local",
+    "bytes": 4730408
+  },
+  {
+    "path": "11-agentic-protocols/code_samples/github-mcp/images/mcp-chainlit-1.png",
+    "status": "local",
+    "bytes": 20358
+  },
+  {
+    "path": "11-agentic-protocols/images/A2A-Diagram.png",
+    "status": "local",
+    "bytes": 214596
+  },
+  {
+    "path": "11-agentic-protocols/images/lesson-11-thumbnail.png",
+    "status": "local",
+    "bytes": 1286452
+  },
+  {
+    "path": "11-agentic-protocols/images/mcp-diagram.png",
+    "status": "local",
+    "bytes": 183032
+  },
+  {
+    "path": "11-agentic-protocols/images/nlweb-diagram.png",
+    "status": "local",
+    "bytes": 202104
+  },
+  {
+    "path": "12-context-engineering/images/best-practices.png",
+    "status": "local",
+    "bytes": 176212
+  },
+  {
+    "path": "12-context-engineering/images/context-types.png",
+    "status": "local",
+    "bytes": 157886
+  },
+  {
+    "path": "12-context-engineering/images/lesson-12-thumbnail.png",
+    "status": "local",
+    "bytes": 2042215
+  },
+  {
+    "path": "13-agent-memory/images/lesson-13-thumbnail.png",
+    "status": "local",
+    "bytes": 1270405
+  },
+  {
+    "path": "14-microsoft-agent-framework/images/agent-components.png",
+    "status": "local",
+    "bytes": 122384
+  },
+  {
+    "path": "14-microsoft-agent-framework/images/framework-intro.png",
+    "status": "local",
+    "bytes": 143760
+  },
+  {
+    "path": "14-microsoft-agent-framework/images/lesson-14-thumbnail.png",
+    "status": "local",
+    "bytes": 243386
+  },
+  {
+    "path": "16-deploying-scalable-agents/images/lesson-16-thumbnail.png",
+    "status": "local",
+    "bytes": 160414
+  },
+  {
+    "path": "17-creating-local-ai-agents/images/lesson-17-thumbnail.png",
+    "status": "local",
+    "bytes": 142336
+  },
+  {
+    "path": "images/repo-thumbnailv3.png",
+    "status": "local",
+    "bytes": 128475
+  },
+  {
+    "path": "translated_images/zh-CN/A2A-Diagram.8666928d648acc26.webp",
+    "status": "local",
+    "bytes": 79232
+  },
+  {
+    "path": "translated_images/zh-CN/AgentRunExample.471a94bc40cbdc0c.webp",
+    "status": "local",
+    "bytes": 44122
+  },
+  {
+    "path": "translated_images/zh-CN/agent-components.410a06daf87b4fef.webp",
+    "status": "local",
+    "bytes": 42010
+  },
+  {
+    "path": "translated_images/zh-CN/agent-playground.dc146586de715010.webp",
+    "status": "local",
+    "bytes": 41054
+  },
+  {
+    "path": "translated_images/zh-CN/agent-service-in-action.34fb465c9a84659e.webp",
+    "status": "local",
+    "bytes": 58378
+  },
+  {
+    "path": "translated_images/zh-CN/agent-setup.9bbb8755bf5df672.webp",
+    "status": "local",
+    "bytes": 43624
+  },
+  {
+    "path": "translated_images/zh-CN/agentic-design-principles.1cfdf8b6d3cc73c2.webp",
+    "status": "local",
+    "bytes": 28950
+  },
+  {
+    "path": "translated_images/zh-CN/agentic-rag-core-loop.c8f4b85c26920f71.webp",
+    "status": "local",
+    "bytes": 102796
+  },
+  {
+    "path": "translated_images/zh-CN/azure-ai-foundry.88d0c35298348c2f.webp",
+    "status": "local",
+    "bytes": 32972
+  },
+  {
+    "path": "translated_images/zh-CN/best-practices.f4170873dc554f58.webp",
+    "status": "local",
+    "bytes": 54246
+  },
+  {
+    "path": "translated_images/zh-CN/context-types.fc10b8927ee43f06.webp",
+    "status": "local",
+    "bytes": 44774
+  },
+  {
+    "path": "translated_images/zh-CN/defining-goals-tasks.d70439e19e37c47a.webp",
+    "status": "local",
+    "bytes": 42668
+  },
+  {
+    "path": "translated_images/zh-CN/forked-repo.33f27ca1901baa6a.webp",
+    "status": "local",
+    "bytes": 13130
+  },
+  {
+    "path": "translated_images/zh-CN/framework-intro.077af16617cf130c.webp",
+    "status": "local",
+    "bytes": 41762
+  },
+  {
+    "path": "translated_images/zh-CN/functioncalling-diagram.a84006fc287f6014.webp",
+    "status": "local",
+    "bytes": 23754
+  },
+  {
+    "path": "translated_images/zh-CN/human-in-the-loop.5f0068a678f62f4f.webp",
+    "status": "local",
+    "bytes": 53196
+  },
+  {
+    "path": "translated_images/zh-CN/importance-of-metacognition.b381afe9aae352f7.webp",
+    "status": "local",
+    "bytes": 68366
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-1-thumbnail.d21b2c34b32d35bb.webp",
+    "status": "local",
+    "bytes": 215722
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-10-thumbnail.2b79a30773db093e.webp",
+    "status": "local",
+    "bytes": 240420
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-11-thumbnail.b6c742949cf1ce2a.webp",
+    "status": "local",
+    "bytes": 113742
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-12-thumbnail.ed19c94463e774d4.webp",
+    "status": "local",
+    "bytes": 138042
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-13-thumbnail.959e3bc52d210c64.webp",
+    "status": "local",
+    "bytes": 94356
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-14-thumbnail.90df0065b9d234ee.webp",
+    "status": "local",
+    "bytes": 34406
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-16-thumbnail.d78cace536bc5d50.webp",
+    "status": "local",
+    "bytes": 88860
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-17-thumbnail.f86434c595a408fc.webp",
+    "status": "local",
+    "bytes": 98910
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-2-thumbnail.c65f44c93b8558df.webp",
+    "status": "local",
+    "bytes": 217404
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-3-thumbnail.1092dd7a8f1074a5.webp",
+    "status": "local",
+    "bytes": 230174
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-4-thumbnail.546162853cb3daff.webp",
+    "status": "local",
+    "bytes": 231740
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-5-thumbnail.20ba9d0c0ae64fae.webp",
+    "status": "local",
+    "bytes": 238274
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-6-thumbnail.a58ab36c099038d4.webp",
+    "status": "local",
+    "bytes": 229792
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-7-thumbnail.f7163ac557bea123.webp",
+    "status": "local",
+    "bytes": 240898
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-8-thumbnail.278a3e4a59137d62.webp",
+    "status": "local",
+    "bytes": 233492
+  },
+  {
+    "path": "translated_images/zh-CN/lesson-9-thumbnail.38059e8af1a5b71d.webp",
+    "status": "local",
+    "bytes": 219284
+  },
+  {
+    "path": "translated_images/zh-CN/mcp-chainlit-1.7ed66d648e3cfb28.webp",
+    "status": "local",
+    "bytes": 4724
+  },
+  {
+    "path": "translated_images/zh-CN/mcp-diagram.e4ca1cbd551444a1.webp",
+    "status": "local",
+    "bytes": 65688
+  },
+  {
+    "path": "translated_images/zh-CN/model-deployment.3749c53fb81e18fd.webp",
+    "status": "local",
+    "bytes": 46768
+  },
+  {
+    "path": "translated_images/zh-CN/multi-agent-filtering.d959cb129dc9f608.webp",
+    "status": "local",
+    "bytes": 39162
+  },
+  {
+    "path": "translated_images/zh-CN/multi-agent-group-chat.ec10f4cde556babd.webp",
+    "status": "local",
+    "bytes": 46232
+  },
+  {
+    "path": "translated_images/zh-CN/multi-agent-hand-off.4c5fb00ba6f8750a.webp",
+    "status": "local",
+    "bytes": 46672
+  },
+  {
+    "path": "translated_images/zh-CN/nlweb-diagram.c1e2390b310e5fe4.webp",
+    "status": "local",
+    "bytes": 72680
+  },
+  {
+    "path": "translated_images/zh-CN/project-endpoint.8cf04c9975bbfbf1.webp",
+    "status": "local",
+    "bytes": 10786
+  },
+  {
+    "path": "translated_images/zh-CN/rag-vs-context.9eae588520c00921.webp",
+    "status": "local",
+    "bytes": 58620
+  },
+  {
+    "path": "translated_images/zh-CN/repo-thumbnailv3.917487e234b90100.webp",
+    "status": "local",
+    "bytes": 74300
+  },
+  {
+    "path": "translated_images/zh-CN/self-correction.da87f3783b7f174b.webp",
+    "status": "local",
+    "bytes": 49750
+  },
+  {
+    "path": "translated_images/zh-CN/system-message-framework.3a97368c92d11d68.webp",
+    "status": "local",
+    "bytes": 59544
+  },
+  {
+    "path": "translated_images/zh-CN/tool-integration.0f569710b5c17c10.webp",
+    "status": "local",
+    "bytes": 67554
+  },
+  {
+    "path": "translated_images/zh-CN/understanding-threats.89edeada8a97fc0f.webp",
+    "status": "local",
+    "bytes": 48636
+  },
+  {
+    "path": "translated_images/zh-CN/what-are-ai-agents.1ec8c4d548af601a.webp",
+    "status": "local",
+    "bytes": 50564
+  },
+  {
+    "path": "translated_images/zh-CN/when-to-use-ai-agents.54becb3bed74a479.webp",
+    "status": "local",
+    "bytes": 40390
+  }
+]

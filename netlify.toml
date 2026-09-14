@@ -1,0 +1,31 @@
+# This existing domain also hosts PromptVault at /. Always prepare the merged bundle.
+[build]
+  command = "npm run build:production && python3 scripts/prepare_netlify.py"
+  publish = ".deploy/site"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[build.processing]
+  skip_processing = true
+
+# Existing files take precedence. Unknown tutorial pages must not reach PromptVault.
+[[redirects]]
+  from = "/agent-handbook/*"
+  to = "/agent-handbook/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "script-src 'self'"
+
+[[headers]]
+  for = "/agent-handbook/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"

@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-14",
+  "sourceCommit": "25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595",
+  "runtime": {
+    "node": "v18.20.5",
+    "npm": "10.8.2",
+    "python": "3.13.1"
+  },
+  "content": {
+    "courses": 19,
+    "sourceReadingPages": 87,
+    "notebooksAligned": 38,
+    "glossaryTerms": 47,
+    "originalSvgDiagrams": 8,
+    "localSourceImages": 98,
+    "upstreamFiles": 238
+  },
+  "commands": {
+    "npm run typecheck": "passed",
+    "npm run build": "passed",
+    "npm run check": "passed",
+    "npm run test:examples": "14 passed",
+    "python3 examples/assistant/evaluate.py": "6 passed; simulation only",
+    "python3 scripts/check_snippets.py": "5 passed",
+    "python scripts/run_receipt_notebooks.py": "19 code cells passed; offline reviewed notebooks; no cloud"
+  },
+  "browser": {
+    "surface": "Codex in-app browser on macOS",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "checked": [
+      "Desktop home and three-column reading layout",
+      "Mobile chapter navigation and project text, tables, code without body overflow",
+      "Three demos: normal, failure, reset and disabled final step",
+      "Chinese full-text search and English Idempotency search",
+      "Glossary MCP filter",
+      "Completion indicator, sidebar checkmark, reload persistence, resume target and clear",
+      "Theme toggle and persistence",
+      "Code-copy clipboard contents",
+      "Image dialog zoom, scroll and close",
+      "Mermaid rendering in all 15 source-material pages and 3 main chapters containing Mermaid",
+      "404 and return home",
+      "Keyboard focus: visible 3px outline",
+      "Direct .html page navigation and reload"
+    ],
+    "consoleErrorsObserved": 0
+  },
+  "notExecuted": [
+    "Real Azure/Foundry model calls",
+    "Azure AI Search and external memory services",
+    "Remote MCP/A2A interoperability",
+    "Third-party Browser-Use actions",
+    "Foundry Local model download and inference",
+    "Cloud deployment and load testing"
+  ],
+  "buildWarnings": [
+    "Mermaid related dynamic chunks exceed 500 kB warning; not a build failure"
+  ],
+  "notes": [
+    "After rebuilding dist, restart the VitePress preview server so its static asset inventory is refreshed.",
+    "Source code has documented legacy APIs and unpinned upstream integrations; static import/read is not cloud validation."
+  ]
+}

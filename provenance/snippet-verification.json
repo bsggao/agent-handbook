@@ -1,0 +1,35 @@
+{
+  "python": "3.13.1",
+  "cases": [
+    {
+      "source": "content/chapters/planning-practice.md",
+      "codeIndex": 0,
+      "status": "passed",
+      "output": "False\n"
+    },
+    {
+      "source": "content/chapters/reflection-practice.md",
+      "codeIndex": 0,
+      "status": "passed",
+      "output": "检查 1 经济旅店 ['评分不达标']\n检查 2 河畔酒店 []\n通过： 河畔酒店\n"
+    },
+    {
+      "source": "content/chapters/protocols-practice.md",
+      "codeIndex": 0,
+      "status": "passed",
+      "output": "发现 {'exchange_rate': {'currency': 'string'}}\n结果 {'rate': 0.048, 'source': 'preset'}\n"
+    },
+    {
+      "source": "docs/guide/python.md",
+      "codeIndex": 0,
+      "status": "passed",
+      "output": "{'city': 'Tokyo', 'available': True}\n"
+    },
+    {
+      "source": "docs/guide/python.md",
+      "codeIndex": 1,
+      "status": "passed",
+      "output": "异步任务已完成\n"
+    }
+  ]
+}
