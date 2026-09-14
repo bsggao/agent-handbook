@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build:subdomain"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[build.processing]
+  skip_processing = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "script-src 'self'"
+    X-Content-Type-Options = "nosniff"

@@ -72,9 +72,27 @@ SITE_URL=https://your-domain.example BASE_PATH=/agent-handbook/ npm run build
 
 服务器需要正常提供生成的 `.html` 文件、`assets/`、图片、下载与 `404.html`。本站使用明确 `.html` 链接，不依赖 SPA 回退；打开或刷新 `/lessons/tools.html` 应正常工作。子路径部署要连同整个输出挂载到同一子路径。子路径构建后的检查同样需要 `BASE_PATH=/agent-handbook/ npm run check`。
 
+### 独立子域名发布（推荐）
+
+目标域名为 `https://agent-handbook.gaogaoai.cn/`，对应独立 Netlify 项目 `gaogao-agent-handbook`（ID `8d299a49-c6e9-48f5-880f-4ce6fdd2096d`）。站点已发布；自定义域名仍待阿里云 DNS 添加记录并验证 HTTPS。当前可用地址：[独立教程站点](https://gaogao-agent-handbook.netlify.app/)。发布状态见 `provenance/subdomain-deployment.json`。
+
+在阿里云的 `gaogaoai.cn` 解析区添加：类型 `CNAME`，主机记录 `agent-handbook`，记录值 `gaogao-agent-handbook.netlify.app`，TTL 使用默认值。解析生效后 Netlify 可申请 HTTPS 证书。无需更改主域名的 NS 或原有解析。
+
+使用 Node 22 LTS 与已登录的 Netlify CLI 执行：
+
+```bash
+npm ci
+npm run build:subdomain
+npm run deploy:subdomain
+```
+
+发布脚本复用固定版本 Netlify CLI 的正常登录，将全部文件上传为草稿，等待就绪后发布。部署配置来自 `deploy/subdomain.toml`，以 `netlify.toml` 随部署提交；项目根目录的 `netlify.toml` 专用于下面的旧子路径合并发布。不要把旧配置用于独立站点的 Git 自动构建。当前两个站点均采用手动发布。
+
+新站的链接和资源从 `/` 开始，sitemap 使用新域名。旧地址继续可用，两者之后需要分别发布更新。学习进度保存在各自域名的浏览器存储中，因此旧域名的记录不会自动转移。
+
 ### gaogaoai.cn 子路径发布
 
-正式入口：[AI Agent 中文学习指南](https://gaogaoai.cn/agent-handbook/)。目标为现有 Netlify 项目 `prompt-vault-cn`，项目 ID `23d7fb77-075f-4327-a7c1-bc66012fd37d`，教程挂载在 `/agent-handbook/`。根目录运行独立的 PromptVault 项目，发布时必须保留其文件。发布结果与实际验证记录见 `provenance/deployment.json`。
+原有入口：[AI Agent 中文学习指南](https://gaogaoai.cn/agent-handbook/)。目标为现有 Netlify 项目 `prompt-vault-cn`，项目 ID `23d7fb77-075f-4327-a7c1-bc66012fd37d`，教程挂载在 `/agent-handbook/`。根目录运行独立的 PromptVault 项目，发布时必须保留其文件。发布结果与实际验证记录见 `provenance/deployment.json`。
 
 维护发布使用 Node 22 LTS、Python 3.12+ 及已登录的 Netlify CLI。CLI 固定为 `23.1.3`。在本项目根目录执行：
 

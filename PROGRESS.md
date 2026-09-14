@@ -34,3 +34,16 @@
 发布脚本：scripts/prepare_netlify.py、scripts/publish_netlify.py。原站基线：6aa4585cfc4c3e69df1da9fc。
 
 2026-09-15 正式部署：6aa81ca95e36a16964558968。发布报告：provenance/deployment.json。使用与生产相同 CSP 的本地浏览器已验证中文/英文搜索和三个演示；远程浏览器导航不稳定，线上交互未虚报为实测。
+
+## 2026-09-15：独立子域名发布
+
+- [x] 创建 gaogao-agent-handbook 独立 Netlify 项目并绑定 agent-handbook.gaogaoai.cn。
+- [x] 使用根路径重新构建 116 页；569 个正文链接与 CSP 启动、分词及 sitemap 检查通过。
+- [x] 部署 6aa81fadf991099052732685，571 个线上文件 SHA-1 全部一致。
+- [x] Netlify 站点首页、课程、术语、sitemap、JS 与 404 共 8 项 HTTP 检查通过；原站两处入口继续 200。
+- [x] 提供独立发布配置与脚本，原域名项目未改动；README 记录两种发布方式。
+- [ ] 阿里云 DNS：添加 agent-handbook CNAME -> gaogao-agent-handbook.netlify.app，等待用户操作（当前浏览器控制台访问超时）。
+- [ ] 新域名解析和 HTTPS 验证：DNS 配置后继续；尚未声称新域名可访问。
+- [ ] GitHub 创建/推送仍待本机 gh 登录。
+
+临时可用地址：https://gaogao-agent-handbook.netlify.app/ 。详细验证：provenance/subdomain-deployment.json。发布命令：npm run build:subdomain && npm run deploy:subdomain（Node 22 LTS）。

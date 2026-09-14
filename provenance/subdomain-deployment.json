@@ -1,0 +1,119 @@
+{
+  "siteId": "8d299a49-c6e9-48f5-880f-4ce6fdd2096d",
+  "deployId": "6aa81fadf991099052732685",
+  "domain": "agent-handbook.gaogaoai.cn",
+  "url": "https://agent-handbook.gaogaoai.cn/",
+  "fallbackUrl": "https://gaogao-agent-handbook.netlify.app/",
+  "deployUrl": "https://6aa81fadf991099052732685--gaogao-agent-handbook.netlify.app",
+  "verifiedAt": "2026-09-14T16:28:56.124769+00:00",
+  "status": "netlify-published-awaiting-external-dns",
+  "dns": {
+    "provider": "Alibaba Cloud DNS",
+    "zone": "gaogaoai.cn",
+    "type": "CNAME",
+    "host": "agent-handbook",
+    "value": "gaogao-agent-handbook.netlify.app",
+    "status": "pending-user-configuration"
+  },
+  "customDomainHttps": "not-verified-pending-dns",
+  "build": {
+    "pages": 116,
+    "courses": 19,
+    "internalMarkdownLinks": 569,
+    "errors": [],
+    "bootstrapCheck": "passed"
+  },
+  "fileIntegrity": {
+    "expectedFiles": 571,
+    "deployedFiles": 571,
+    "mismatches": [],
+    "unexpectedFiles": []
+  },
+  "httpChecks": [
+    {
+      "url": "https://gaogao-agent-handbook.netlify.app/",
+      "status": 200,
+      "finalUrl": "https://gaogao-agent-handbook.netlify.app/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 15101,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://gaogao-agent-handbook.netlify.app/lessons/tools.html",
+      "status": 200,
+      "finalUrl": "https://gaogao-agent-handbook.netlify.app/lessons/tools.html",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 90992,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://gaogao-agent-handbook.netlify.app/lessons/rag.html",
+      "status": 200,
+      "finalUrl": "https://gaogao-agent-handbook.netlify.app/lessons/rag.html",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 47698,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://gaogao-agent-handbook.netlify.app/lessons/multi-agent.html",
+      "status": 200,
+      "finalUrl": "https://gaogao-agent-handbook.netlify.app/lessons/multi-agent.html",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 47092,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://gaogao-agent-handbook.netlify.app/guide/glossary.html",
+      "status": 200,
+      "finalUrl": "https://gaogao-agent-handbook.netlify.app/guide/glossary.html",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 39820,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://gaogao-agent-handbook.netlify.app/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://gaogao-agent-handbook.netlify.app/sitemap.xml",
+      "contentType": "application/xml",
+      "bytes": 14761,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://gaogao-agent-handbook.netlify.app/missing-subdomain-check.html",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://gaogao-agent-handbook.netlify.app/assets/bootstrap.0d052034cf57d221.js",
+      "status": 200,
+      "finalUrl": "https://gaogao-agent-handbook.netlify.app/assets/bootstrap.0d052034cf57d221.js",
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 215,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://gaogaoai.cn/",
+      "status": 200,
+      "finalUrl": "https://gaogaoai.cn/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 705,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://gaogaoai.cn/agent-handbook/",
+      "status": 200,
+      "finalUrl": "https://gaogaoai.cn/agent-handbook/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 15716,
+      "csp": "script-src 'self'"
+    },
+    {
+      "url": "https://agent-handbook.gaogaoai.cn/",
+      "error": "<urlopen error [Errno 54] Connection reset by peer>"
+    }
+  ],
+  "browserValidation": "Remote browser tool timed out; no new remote UI verification claimed. Existing previous local same-CSP checks documented separately.",
+  "github": "Local repository; remote repository creation and push blocked by gh not logged in.",
+  "previousUrl": "https://gaogaoai.cn/agent-handbook/",
+  "previousSiteModified": false
+}
