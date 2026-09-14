@@ -3,6 +3,8 @@ from pathlib import Path
 import json, subprocess, sys
 from prepare_netlify import ROOT, WORK, SITE_ID, CLI, current_site
 
+sys.exit('The /agent-handbook/ deployment is retired. Use npm run deploy:subdomain.')
+
 prepared = json.loads((WORK / 'prepared.json').read_text())
 current = current_site()['published_deploy']['id']
 if prepared['siteId'] != SITE_ID or current != prepared['baselineDeployId']:

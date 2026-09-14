@@ -47,3 +47,11 @@
 - [x] GitHub CLI 已授权，main 分支已推送至 https://github.com/bsggao/agent-handbook。
 
 正式地址：https://agent-handbook.gaogaoai.cn/ 。备用地址：https://gaogao-agent-handbook.netlify.app/ 。详细验证：provenance/subdomain-deployment.json。发布命令：npm run build:subdomain && npm run deploy:subdomain（Node 22 LTS）。
+
+## 2026-09-15：首页排版修复与旧路径下线
+
+- 首页关闭 Markdown 正文样式包装，去除标题横线、额外留白、列表项错位和整行下划线。
+- 本地浏览器 1280px 四条路线齐平、390px 两列分别齐平，无横向溢出；控制台无错误。类型、116 页构建和 569 个链接检查通过。
+- 修复已发布到独立域名，部署 6aa8294d9ab5f563f9348c51；线上 HTML/CSS 已确认更新。
+- 用户要求移除旧路径且不跳转：主站移除 570 个教程文件，21 个原站文件保留，旧路径返回 404。部署 6aa82a44ab1099e487b3e6dd。
+- 停用旧合并发布脚本，默认 Netlify 配置改为独立站点，避免误恢复旧地址。

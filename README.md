@@ -86,33 +86,13 @@ npm run build:subdomain
 npm run deploy:subdomain
 ```
 
-发布脚本复用固定版本 Netlify CLI 的正常登录，将全部文件上传为草稿，等待就绪后发布。部署配置来自 `deploy/subdomain.toml`，以 `netlify.toml` 随部署提交；项目根目录的 `netlify.toml` 专用于下面的旧子路径合并发布。不要把旧配置用于独立站点的 Git 自动构建。当前两个站点均采用手动发布。
+发布脚本复用固定版本 Netlify CLI 的正常登录，将全部文件上传为草稿，等待就绪后发布。部署配置来自 `deploy/subdomain.toml`，根目录 `netlify.toml` 也使用独立站点配置。当前采用手动发布，GitHub 推送不会自动发布网站。
 
-新站的链接和资源从 `/` 开始，sitemap 使用新域名。旧地址继续可用，两者之后需要分别发布更新。学习进度保存在各自域名的浏览器存储中，因此旧域名的记录不会自动转移。
+新站的链接和资源从 `/` 开始，sitemap 使用新域名。旧地址已移除，今后只维护独立域名。学习进度保存在各自域名的浏览器存储中，因此旧域名的记录不会自动转移。
 
-### gaogaoai.cn 子路径发布
+### 已移除的旧地址
 
-原有入口：[AI Agent 中文学习指南](https://gaogaoai.cn/agent-handbook/)。目标为现有 Netlify 项目 `prompt-vault-cn`，项目 ID `23d7fb77-075f-4327-a7c1-bc66012fd37d`，教程挂载在 `/agent-handbook/`。根目录运行独立的 PromptVault 项目，发布时必须保留其文件。发布结果与实际验证记录见 `provenance/deployment.json`。
-
-维护发布使用 Node 22 LTS、Python 3.12+ 及已登录的 Netlify CLI。CLI 固定为 `23.1.3`。在本项目根目录执行：
-
-```bash
-npm ci
-npm run typecheck
-npm run build:production
-python3 scripts/prepare_netlify.py
-python3 scripts/publish_netlify.py
-# 检查命令返回的预览地址，再发布正式版本：
-python3 scripts/publish_netlify.py --prod
-```
-
-准备脚本查询当前正式部署，将教程之外的静态文件按 SHA-1 下载并验证，再合并到 `.deploy/site/`。发布前再次核对基线部署 ID，防止覆盖准备期间别人的发布；若生产已变化，重新运行准备脚本。`.deploy/` 保存本地备份、清单及部署结果，不进入 Git。原站出现云函数、Edge Functions、独立路由文件或新的 Git 自动构建时，脚本停止，需先整合部署方式。
-
-**不要直接把 `dist/` 发布到这个 Netlify 项目**，也不要从 PromptVault 项目单独覆盖整个域名；Netlify 每次部署都是整站快照。两个项目的后续更新都必须使用包含对方文件的合并包。当前采用手动发布，没有配置 GitHub push 自动部署。
-
-`netlify.toml` 保留根站 SPA 回退和 `script-src 'self'` 策略，优先处理教程路径及教程 404。构建脚本将 VitePress 内联启动代码输出为内容哈希命名的同源 JS，并在构建时展开可信配置中的分词函数，浏览器不需要 `unsafe-inline` 或 `unsafe-eval`。`scripts/check_bootstrap.mjs` 在禁用动态代码生成的环境实际运行启动代码、验证中文与英文分词以及子路径 sitemap。升级 VitePress 后必须重新验证该构建适配。
-
-回滚可在 [Netlify 部署记录](https://app.netlify.com/projects/prompt-vault-cn/deploys) 选择上一条已验证的部署并重新发布；部署前基线 ID 记录于 `.deploy/prepared.json` 和验证报告中。
+`gaogaoai.cn/agent-handbook/` 已按要求停用，旧教程文件从主站移除，该路径及子页面直接返回 404，不跳转。主站其余文件保留。今后仅发布独立域名，不再执行旧的子路径合并发布脚本。
 
 ## 内容与源码结构
 

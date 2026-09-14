@@ -1,0 +1,20 @@
+# PromptVault root deployment after retiring the handbook subpath.
+[build.processing]
+  skip_processing = true
+
+# Return an actual 404 instead of entering the root application's SPA fallback.
+[[redirects]]
+  from = "/agent-handbook/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "script-src 'self'"

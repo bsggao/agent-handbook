@@ -209,5 +209,7 @@
     ],
     "expiresAt": "2026-12-13T15:34:14.000Z",
     "renewable": true
-  }
+  },
+  "homeLayoutFixDeployId": "6aa8294d9ab5f563f9348c51",
+  "previousUrlStatus": "Removed; returns 404 without redirect"
 }

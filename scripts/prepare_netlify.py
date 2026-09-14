@@ -95,4 +95,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit('The /agent-handbook/ deployment is retired. Use npm run build:subdomain and npm run deploy:subdomain.')

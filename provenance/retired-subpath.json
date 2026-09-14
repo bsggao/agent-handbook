@@ -1,0 +1,37 @@
+{
+  "siteId": "23d7fb77-075f-4327-a7c1-bc66012fd37d",
+  "deployId": "6aa82a44ab1099e487b3e6dd",
+  "previousDeployId": "6aa81ca95e36a16964558968",
+  "preservedFiles": 21,
+  "removedFiles": 570,
+  "redirect": false,
+  "checks": [
+    {
+      "url": "https://gaogaoai.cn/agent-handbook/",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "https://gaogaoai.cn/agent-handbook",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "https://gaogaoai.cn/agent-handbook/lessons/tools.html",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "https://gaogaoai.cn/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://agent-handbook.gaogaoai.cn/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "preservedSha1Verified": 21,
+  "remainingTutorialFiles": 0
+}

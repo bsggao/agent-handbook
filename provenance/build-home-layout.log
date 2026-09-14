@@ -1,0 +1,37 @@
+
+> ai-agent-zh-handbook@1.0.0 build:subdomain
+> SITE_URL=https://agent-handbook.gaogaoai.cn BASE_PATH=/ npm run build && npm run check && node scripts/check_bootstrap.mjs
+
+
+> ai-agent-zh-handbook@1.0.0 build
+> vitepress build docs && python3 scripts/secure_static_build.py
+
+
+  vitepress v1.6.4
+
+- building client + server bundles...
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[32m✓[0m building client + server bundles...
+- rendering pages...
+[32m✓[0m rendering pages...
+- generating sitemap...
+[32m✓[0m generating sitemap...
+build complete in 16.48s.
+CSP: externalized inline scripts in 116 pages → 3 shared scripts; no eval
+
+> ai-agent-zh-handbook@1.0.0 check
+> python3 scripts/check_content.py
+
+{
+  "base": "/",
+  "courses": 19,
+  "teachingComplete": 19,
+  "markdownLocalLinks": 569,
+  "builtPages": 116,
+  "errors": []
+}
+PASS: script-src self compatible bootstraps, Chinese/English tokenization, base path and sitemap
