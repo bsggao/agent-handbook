@@ -74,7 +74,7 @@ SITE_URL=https://your-domain.example BASE_PATH=/agent-handbook/ npm run build
 
 ### 独立子域名发布（推荐）
 
-目标域名为 `https://agent-handbook.gaogaoai.cn/`，对应独立 Netlify 项目 `gaogao-agent-handbook`（ID `8d299a49-c6e9-48f5-880f-4ce6fdd2096d`）。站点已发布；自定义域名仍待阿里云 DNS 添加记录并验证 HTTPS。当前可用地址：[独立教程站点](https://gaogao-agent-handbook.netlify.app/)。发布状态见 `provenance/subdomain-deployment.json`。
+目标域名为 `https://agent-handbook.gaogaoai.cn/`，对应独立 Netlify 项目 `gaogao-agent-handbook`（ID `8d299a49-c6e9-48f5-880f-4ce6fdd2096d`）。站点已发布，阿里云 DNS 与 HTTPS 已验证。正式入口：[AI Agent 中文学习指南](https://agent-handbook.gaogaoai.cn/)。备用地址：[Netlify 站点](https://gaogao-agent-handbook.netlify.app/)。发布状态见 `provenance/subdomain-deployment.json`。
 
 在阿里云的 `gaogaoai.cn` 解析区添加：类型 `CNAME`，主机记录 `agent-handbook`，记录值 `gaogao-agent-handbook.netlify.app`，TTL 使用默认值。解析生效后 Netlify 可申请 HTTPS 证书。无需更改主域名的 NS 或原有解析。
 

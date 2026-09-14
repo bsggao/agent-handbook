@@ -5,17 +5,18 @@
   "url": "https://agent-handbook.gaogaoai.cn/",
   "fallbackUrl": "https://gaogao-agent-handbook.netlify.app/",
   "deployUrl": "https://6aa81fadf991099052732685--gaogao-agent-handbook.netlify.app",
-  "verifiedAt": "2026-09-14T16:28:56.124769+00:00",
-  "status": "netlify-published-awaiting-external-dns",
+  "verifiedAt": "2026-09-14T16:35:55.455682+00:00",
+  "status": "live",
   "dns": {
     "provider": "Alibaba Cloud DNS",
     "zone": "gaogaoai.cn",
     "type": "CNAME",
     "host": "agent-handbook",
     "value": "gaogao-agent-handbook.netlify.app",
-    "status": "pending-user-configuration"
+    "status": "verified-authoritative-google-cloudflare-and-local",
+    "verifiedAt": "2026-09-14T16:33:35.759442+00:00"
   },
-  "customDomainHttps": "not-verified-pending-dns",
+  "customDomainHttps": "verified-valid-certificate-and-http-200",
   "build": {
     "pages": 116,
     "courses": 19,
@@ -115,5 +116,92 @@
   "browserValidation": "Remote browser tool timed out; no new remote UI verification claimed. Existing previous local same-CSP checks documented separately.",
   "github": "Local repository; remote repository creation and push blocked by gh not logged in.",
   "previousUrl": "https://gaogaoai.cn/agent-handbook/",
-  "previousSiteModified": false
+  "previousSiteModified": false,
+  "customDomainChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 15101,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    },
+    {
+      "path": "/lessons/tools.html",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 90992,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    },
+    {
+      "path": "/lessons/rag.html",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 47698,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    },
+    {
+      "path": "/lessons/multi-agent.html",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 47092,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    },
+    {
+      "path": "/guide/glossary.html",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 39820,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 14761,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    },
+    {
+      "path": "/missing-subdomain-check.html",
+      "status": 404,
+      "tlsVerification": true
+    },
+    {
+      "path": "/assets/bootstrap.0d052034cf57d221.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 215,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    },
+    {
+      "path": "/assets/bootstrap.9a96a286a0ab1982.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 13485,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    },
+    {
+      "path": "/assets/bootstrap.2dad6bd154a4d0fa.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 98,
+      "csp": "script-src 'self'",
+      "tlsVerification": true
+    }
+  ],
+  "certificate": {
+    "state": "issued",
+    "domains": [
+      "agent-handbook.gaogaoai.cn"
+    ],
+    "expiresAt": "2026-12-13T15:34:14.000Z",
+    "renewable": true
+  }
 }

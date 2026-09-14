@@ -42,8 +42,8 @@
 - [x] 部署 6aa81fadf991099052732685，571 个线上文件 SHA-1 全部一致。
 - [x] Netlify 站点首页、课程、术语、sitemap、JS 与 404 共 8 项 HTTP 检查通过；原站两处入口继续 200。
 - [x] 提供独立发布配置与脚本，原域名项目未改动；README 记录两种发布方式。
-- [ ] 阿里云 DNS：添加 agent-handbook CNAME -> gaogao-agent-handbook.netlify.app，等待用户操作（当前浏览器控制台访问超时）。
-- [ ] 新域名解析和 HTTPS 验证：DNS 配置后继续；尚未声称新域名可访问。
+- [x] 用户添加阿里云 CNAME 后，权威 DNS、本地及 Google/Cloudflare 公共解析均验证正确。
+- [x] Netlify 托管证书已签发；新域名 HTTPS 首页返回 200，课程、术语、启动脚本和 404 验证通过。
 - [ ] GitHub 创建/推送仍待本机 gh 登录。
 
-临时可用地址：https://gaogao-agent-handbook.netlify.app/ 。详细验证：provenance/subdomain-deployment.json。发布命令：npm run build:subdomain && npm run deploy:subdomain（Node 22 LTS）。
+正式地址：https://agent-handbook.gaogaoai.cn/ 。备用地址：https://gaogao-agent-handbook.netlify.app/ 。详细验证：provenance/subdomain-deployment.json。发布命令：npm run build:subdomain && npm run deploy:subdomain（Node 22 LTS）。
