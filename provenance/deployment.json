@@ -138,9 +138,11 @@
     "upstreamGitBlobs": "238 source files checked against retrieval SHA-256; passed"
   },
   "github": {
-    "status": "pending-authentication",
-    "intendedRepository": "bsggao/agent-handbook",
-    "reason": "GitHub connector has no create-repository action; local gh is not authenticated."
+    "status": "pushed",
+    "repository": "bsggao/agent-handbook",
+    "url": "https://github.com/bsggao/agent-handbook",
+    "branch": "main",
+    "history": "Original local Git history preserved; normal HTTPS push succeeded with HTTP/1.1."
   },
   "deploymentNotes": [
     "Initial CLI streamed upload stalled; resumed the same preview with buffered Netlify SDK uploads and explicit timeouts.",

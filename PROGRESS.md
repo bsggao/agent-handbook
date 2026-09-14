@@ -1,4 +1,4 @@
-# 实施进度：教程与域名部署已完成，GitHub 推送待登录
+# 实施进度：教程、域名部署与 GitHub 推送已完成
 
 来源：Microsoft AI Agents for Beginners，提交 25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595，获取 2026-09-14。
 
@@ -29,7 +29,7 @@
 - [x] Netlify 预览部署上传及 HTTP 验证；修复多余重定向造成的预览循环。
 - [x] 正式发布 https://gaogaoai.cn/agent-handbook/；591 个线上内容文件哈希一致，21 个原站文件完整保留，15 个 HTTP 检查通过。
 - [x] 初始化本地 Git 仓库，检查提交范围与敏感文件。
-- [ ] GitHub 创建/推送：连接器无创建仓库能力，本机 gh 尚未登录，已请求用户完成 gh auth login。
+- [x] GitHub 仓库 bsggao/agent-handbook 已创建，完整源码与提交历史已推送。
 
 发布脚本：scripts/prepare_netlify.py、scripts/publish_netlify.py。原站基线：6aa4585cfc4c3e69df1da9fc。
 
@@ -44,6 +44,6 @@
 - [x] 提供独立发布配置与脚本，原域名项目未改动；README 记录两种发布方式。
 - [x] 用户添加阿里云 CNAME 后，权威 DNS、本地及 Google/Cloudflare 公共解析均验证正确。
 - [x] Netlify 托管证书已签发；新域名 HTTPS 首页返回 200，课程、术语、启动脚本和 404 验证通过。
-- [ ] GitHub 创建/推送仍待本机 gh 登录。
+- [x] GitHub CLI 已授权，main 分支已推送至 https://github.com/bsggao/agent-handbook。
 
 正式地址：https://agent-handbook.gaogaoai.cn/ 。备用地址：https://gaogao-agent-handbook.netlify.app/ 。详细验证：provenance/subdomain-deployment.json。发布命令：npm run build:subdomain && npm run deploy:subdomain（Node 22 LTS）。

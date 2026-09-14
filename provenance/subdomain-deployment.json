@@ -114,7 +114,13 @@
     }
   ],
   "browserValidation": "Remote browser tool timed out; no new remote UI verification claimed. Existing previous local same-CSP checks documented separately.",
-  "github": "Local repository; remote repository creation and push blocked by gh not logged in.",
+  "github": {
+    "status": "pushed",
+    "repository": "bsggao/agent-handbook",
+    "url": "https://github.com/bsggao/agent-handbook",
+    "branch": "main",
+    "history": "Original local Git history preserved; normal HTTPS push succeeded with HTTP/1.1."
+  },
   "previousUrl": "https://gaogaoai.cn/agent-handbook/",
   "previousSiteModified": false,
   "customDomainChecks": [
